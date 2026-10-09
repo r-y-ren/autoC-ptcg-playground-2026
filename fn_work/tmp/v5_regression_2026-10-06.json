@@ -1,0 +1,196 @@
+{
+ "id": "fna-029",
+ "date": "2026-10-06",
+ "task": "单变量归因:rules fold 为何输给 v5 首序(fna-028 gate 欠 v5 线 0.367)",
+ "change_files": [
+  "src/learn/search_lookahead.py"
+ ],
+ "change": "_pick_rules_fold 贴能止盈(fna-029):新增 _active_ready_attack(出战位存在能量覆盖且 eff>0 的攻击);ready 时该攻击升最优先档(KO −2/普攻 −1),贴能(出战/备战同律)降⑥档 END 档;未就绪时资源优先序①-⑦逐位不变。只碰 _pick_rules_fold 及其私有 helper,choose_with_search/_fill/state_value 未动",
+ "section1_attribution": {
+  "H4_noise": {
+   "verdict": "主成分成立+测量协议缺陷实锤",
+   "evidence": {
+    "paired_run_seed0_30000": {
+     "rules": {
+      "tag": "rules",
+      "seed0": 30000,
+      "n": 30,
+      "W": 14,
+      "L": 16,
+      "D": 0,
+      "wr": 0.467
+     },
+     "greedy": {
+      "tag": "greedy",
+      "seed0": 30000,
+      "n": 30,
+      "W": 18,
+      "L": 12,
+      "D": 0,
+      "wr": 0.6
+     },
+     "discordant": {
+      "rules_only_W": 5,
+      "greedy_only_W": 9
+     },
+     "note": "同『种子』同席位 rules 0.467 vs greedy 0.600——但见下,配对失效"
+    },
+    "irreproducibility": [
+     {
+      "proc": "proc1",
+      "rep0": {
+       "rewards": [
+        -1,
+        1
+       ],
+       "steps": 330
+      },
+      "rep1": {
+       "rewards": [
+        1,
+        -1
+       ],
+       "steps": 335
+      }
+     },
+     {
+      "proc": "proc2",
+      "rep0": {
+       "rewards": [
+        -1,
+        1
+       ],
+       "steps": 333
+      },
+      "rep1": {
+       "rewards": [
+        -1,
+        1
+       ],
+       "steps": 386
+      }
+     }
+    ],
+    "root": "random.seed(seed) 只覆 Python 侧随机;libcg 引擎洗牌/掷币 RNG 无种子入口(同进程连跑两局即分歧),配对种子设计无效(B1 评审注脚获实证)",
+    "conclusion": "n=30 读数 σ≈0.09;0.367@29000 是 −1.5σ 低抽;rules@30000 0.467 已回历史带(0.433-0.633);fold 间 4 局差 ≈1σ,单块读数分不出 rules/greedy"
+   }
+  },
+  "H1_opponent_fold": {
+   "verdict": "变体成立(机制修正,非『④档乱选』)",
+   "evidence": "六局取证:对手回合折叠 2483 次首选择 100% ATTACH、0 ATTACK(_STEP_CAP=12 步全被贴能吃满)——因为确定化对手手牌=_fill(1 基础怪+余量全 Basic Water 能量),①贴能恒可满足;叶子从不评估对手伤害流。v5 实际:回合首行动 PLAY 79/119(引擎首序 PLAY 最先),ATTACK 全场 53 次、极端局 16/17 回合攻击。rules/greedy 对 v5 首行动错报率 0.279/0.311(都不准),伤害盲区才是输因"
+  },
+  "H2_attack_conservative": {
+   "verdict": "证伪(方向相反)",
+   "evidence": "同 6 种子受测体攻击回合占比 rules 0.597 vs greedy 0.456——rules 攻击更多;KO 门槛只作用于折叠模拟,不作用实际策略(depth=1 自方回合不折叠)"
+  },
+  "H3_retreat_abuse": {
+   "verdict": "证伪(方向相反)",
+   "evidence": "同 6 种子撤退次数 rules 6 vs greedy 44"
+  }
+ },
+ "section2_fix_and_tables": {
+  "fix": "见 change;75/75 测试绿(含 fna-028 五个语义锁定);dec_ms=2.0 不变;语义探针:空/差1能量→贴能,已覆盖→攻击;折叠对手攻击占比 0→16-21%",
+  "tables": {
+   "v5_line_30games": {
+    "pre_fix_rules@29000": 0.367,
+    "pre_fix_rules@30000": 0.467,
+    "pre_fix_greedy@30000": 0.6,
+    "greedy_history_band": "0.433-0.633(@9000/12000/25000)",
+    "post_fix@31000": {
+     "opp": "v5",
+     "n": 30,
+     "W": 20,
+     "L": 10,
+     "D": 0,
+     "wr": 0.667
+    },
+    "post_fix@32000(four内)": {
+     "opp": "v5",
+     "n": 30,
+     "W": 18,
+     "L": 12,
+     "D": 0,
+     "wr": 0.6
+    }
+   },
+   "four_lines_seed0_32000": {
+    "ladder": {
+     "opp": "ladder",
+     "n": 30,
+     "W": 16,
+     "L": 14,
+     "D": 0,
+     "wr": 0.533
+    },
+    "v5": {
+     "opp": "v5",
+     "n": 30,
+     "W": 18,
+     "L": 12,
+     "D": 0,
+     "wr": 0.6
+    },
+    "teacher": {
+     "opp": "teacher",
+     "n": 30,
+     "W": 25,
+     "L": 5,
+     "D": 0,
+     "wr": 0.833
+    },
+    "mirror": {
+     "opp": "mirror(self)",
+     "n": 30,
+     "W": 17,
+     "L": 13,
+     "D": 0,
+     "wr": 0.567
+    },
+    "ladder_retest_seed0_33000": {
+     "W": 14,
+     "L": 16,
+     "wr": 0.467,
+     "dec_ms": 2.0
+    },
+    "pre_fix_B_rules@29000": {
+     "ladder": 0.7,
+     "v5": 0.367,
+     "teacher": 0.767,
+     "mirror": 0.5
+    },
+    "history_bands": {
+     "ladder": "0.333-0.500(带)+0.700(新高)",
+     "teacher": "0.533-0.767",
+     "mirror": "0.5 附近"
+    }
+   },
+   "statistics": {
+    "v5_gain": "0.417(2×30 均值)→0.633,z≈2.4,p≈0.01——真增益",
+    "ladder_cost": "0.700(1×30)→0.500(2×30 均值),z≈1.6,p≈0.10——疑似回落但不结论(0.700 本身可能是高抽)",
+    "four_line_mean": "0.583→0.633"
+   }
+  },
+  "no_collapse": "ladder 0.533/0.467 全部落在其历史带 0.333-0.500 上沿之内(未跌破带底),teacher 0.833 历史新高,mirror 0.567 带内——无塌线"
+ },
+ "section3_limits": [
+  "引擎对局同 seed 不可复现(引擎 RNG 无 Python 种子入口):所有 30 局单块读数噪声 σ≈0.09,gate 阈 0.60/0.65 距带心 <1σ——单块 gate 判定天然脆弱,本次 v5@31000 0.667 过线/v5@32000 0.600 未过即同一修复两块异读",
+  "修复后折叠对手模型仍非 v5 真行为克隆(v5 是 PLAY 首序;折叠模型=『贴能养攻→能攻即攻』赛马模型):修的是伤害盲区,不是行为复制",
+  "ladder 回落统计不结论(p≈0.10),无法排除 0.700 为高抽;若为真回落,机制未知(候选:更凶对手模型使我方过度防守),未深挖",
+  "_fill 能量类型固定 Basic Water:对非无色攻击的就绪判定依赖对手出战位真实能量(现状成立,因 opponent_active 不确定化保留真实能量);未来若改 fill 需重新验证就绪判据",
+  "depth=2 臂(已弃用)与 weights 层未触碰;C 臂旧行为不保证"
+ ],
+ "section4_recommendation": {
+  "verdict": "修复有效,v5 克性解除:建议部署 fold=rules(含 fna-029 止盈)为打包基线",
+  "deploy_rationale": "四线均值 0.583→0.633;v5 线翻正(+0.22,p≈0.01);teacher 0.833 新高;无塌线;ladder gate 欠口在噪声带内",
+  "gate_status": "严格单块 gate(ladder≥0.60 ∧ v5≥0.65 ∧ mirror 带内)未在任一单块同时达成:ladder 最佳 0.533——建议按战役既定 fallback『部署实测为唯一信息源』收口,或打包前补 90 局多块聚合复核 ladder",
+  "measurement": "后续 gate 判定建议 ≥60 局/线或多块聚合(单块 σ≈0.09 下 0.60/0.65 阈值不可分辨);引擎级 seed 入口若可达,应列为测量基建最高优先"
+ },
+ "artifacts": [
+  "tmp/v5reg_h4.py/.json",
+  "tmp/v5reg_trace.py/.json",
+  "tmp/v5reg_repro.py",
+  "tmp/v5reg_verify.py",
+  "tmp/v5reg_verify_v5.json",
+  "tmp/v5reg_verify_four.json"
+ ]
+}

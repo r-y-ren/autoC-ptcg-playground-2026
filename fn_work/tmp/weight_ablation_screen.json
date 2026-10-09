@@ -1,0 +1,573 @@
+{
+ "rows": [
+  {
+   "tag": "r0_baseline",
+   "weights": {
+    "prize": 10.0,
+    "hp": 2.0,
+    "threat": 3.0,
+    "lock": 2.0,
+    "board": 1.5,
+    "fatigue": 2.0,
+    "danger": -4.0
+   },
+   "seed0": 20000,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 50.0,
+   "score": 0.5416,
+   "wins24": 13,
+   "readout": {
+    "mirror_h2h": 0.5833,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 7,
+     "l": 5,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.5833
+    },
+    "v5": {
+     "w": 6,
+     "l": 6,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.5
+    }
+   },
+   "wall_s": 50.0
+  },
+  {
+   "tag": "r1_prize_x0.5",
+   "weights": {
+    "prize": 5.0,
+    "hp": 2.0,
+    "threat": 3.0,
+    "lock": 2.0,
+    "board": 1.5,
+    "fatigue": 2.0,
+    "danger": -4.0
+   },
+   "seed0": 20100,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 52.9,
+   "score": 0.4584,
+   "wins24": 11,
+   "readout": {
+    "mirror_h2h": 0.75,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 5,
+     "l": 7,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.4167
+    },
+    "v5": {
+     "w": 6,
+     "l": 6,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.5
+    }
+   },
+   "wall_s": 52.9
+  },
+  {
+   "tag": "r1_prize_x1.5",
+   "weights": {
+    "prize": 15.0,
+    "hp": 2.0,
+    "threat": 3.0,
+    "lock": 2.0,
+    "board": 1.5,
+    "fatigue": 2.0,
+    "danger": -4.0
+   },
+   "seed0": 20200,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 47.8,
+   "score": 0.4167,
+   "wins24": 10,
+   "readout": {
+    "mirror_h2h": 0.9167,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 7,
+     "l": 5,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.5833
+    },
+    "v5": {
+     "w": 3,
+     "l": 9,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.25
+    }
+   },
+   "wall_s": 47.8
+  },
+  {
+   "tag": "r1_hp_x0.5",
+   "weights": {
+    "prize": 10.0,
+    "hp": 1.0,
+    "threat": 3.0,
+    "lock": 2.0,
+    "board": 1.5,
+    "fatigue": 2.0,
+    "danger": -4.0
+   },
+   "seed0": 20300,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 52.1,
+   "score": 0.5,
+   "wins24": 12,
+   "readout": {
+    "mirror_h2h": 0.5,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 6,
+     "l": 6,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.5
+    },
+    "v5": {
+     "w": 6,
+     "l": 6,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.5
+    }
+   },
+   "wall_s": 52.1
+  },
+  {
+   "tag": "r1_hp_x1.5",
+   "weights": {
+    "prize": 10.0,
+    "hp": 3.0,
+    "threat": 3.0,
+    "lock": 2.0,
+    "board": 1.5,
+    "fatigue": 2.0,
+    "danger": -4.0
+   },
+   "seed0": 20400,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 50.4,
+   "score": 0.4583,
+   "wins24": 11,
+   "readout": {
+    "mirror_h2h": 0.75,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 7,
+     "l": 5,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.5833
+    },
+    "v5": {
+     "w": 4,
+     "l": 8,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.3333
+    }
+   },
+   "wall_s": 50.4
+  },
+  {
+   "tag": "r1_threat_x0.5",
+   "weights": {
+    "prize": 10.0,
+    "hp": 2.0,
+    "threat": 1.5,
+    "lock": 2.0,
+    "board": 1.5,
+    "fatigue": 2.0,
+    "danger": -4.0
+   },
+   "seed0": 20500,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 48.5,
+   "score": 0.5,
+   "wins24": 12,
+   "readout": {
+    "mirror_h2h": 0.5,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 8,
+     "l": 4,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.6667
+    },
+    "v5": {
+     "w": 4,
+     "l": 8,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.3333
+    }
+   },
+   "wall_s": 48.5
+  },
+  {
+   "tag": "r1_threat_x1.5",
+   "weights": {
+    "prize": 10.0,
+    "hp": 2.0,
+    "threat": 4.5,
+    "lock": 2.0,
+    "board": 1.5,
+    "fatigue": 2.0,
+    "danger": -4.0
+   },
+   "seed0": 20600,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 49.1,
+   "score": 0.3333,
+   "wins24": 8,
+   "readout": {
+    "mirror_h2h": 0.6667,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 4,
+     "l": 8,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.3333
+    },
+    "v5": {
+     "w": 4,
+     "l": 8,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.3333
+    }
+   },
+   "wall_s": 49.1
+  },
+  {
+   "tag": "r1_lock_x0.5",
+   "weights": {
+    "prize": 10.0,
+    "hp": 2.0,
+    "threat": 3.0,
+    "lock": 1.0,
+    "board": 1.5,
+    "fatigue": 2.0,
+    "danger": -4.0
+   },
+   "seed0": 20700,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 51.3,
+   "score": 0.5417,
+   "wins24": 13,
+   "readout": {
+    "mirror_h2h": 0.6667,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 5,
+     "l": 7,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.4167
+    },
+    "v5": {
+     "w": 8,
+     "l": 4,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.6667
+    }
+   },
+   "wall_s": 51.3
+  },
+  {
+   "tag": "r1_lock_x1.5",
+   "weights": {
+    "prize": 10.0,
+    "hp": 2.0,
+    "threat": 3.0,
+    "lock": 3.0,
+    "board": 1.5,
+    "fatigue": 2.0,
+    "danger": -4.0
+   },
+   "seed0": 20800,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 50.6,
+   "score": 0.2916,
+   "wins24": 7,
+   "readout": {
+    "mirror_h2h": 0.4167,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 4,
+     "l": 8,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.3333
+    },
+    "v5": {
+     "w": 3,
+     "l": 9,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.25
+    }
+   },
+   "wall_s": 50.6
+  },
+  {
+   "tag": "r1_board_x0.5",
+   "weights": {
+    "prize": 10.0,
+    "hp": 2.0,
+    "threat": 3.0,
+    "lock": 2.0,
+    "board": 0.75,
+    "fatigue": 2.0,
+    "danger": -4.0
+   },
+   "seed0": 20900,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 49.0,
+   "score": 0.5417,
+   "wins24": 13,
+   "readout": {
+    "mirror_h2h": 0.75,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 5,
+     "l": 7,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.4167
+    },
+    "v5": {
+     "w": 8,
+     "l": 4,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.6667
+    }
+   },
+   "wall_s": 49.0
+  },
+  {
+   "tag": "r1_board_x1.5",
+   "weights": {
+    "prize": 10.0,
+    "hp": 2.0,
+    "threat": 3.0,
+    "lock": 2.0,
+    "board": 2.25,
+    "fatigue": 2.0,
+    "danger": -4.0
+   },
+   "seed0": 21100,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 52.3,
+   "score": 0.5,
+   "wins24": 12,
+   "readout": {
+    "mirror_h2h": 0.4167,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 6,
+     "l": 6,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.5
+    },
+    "v5": {
+     "w": 6,
+     "l": 6,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.5
+    }
+   },
+   "wall_s": 52.3
+  },
+  {
+   "tag": "r1_fatigue_x1.5",
+   "weights": {
+    "prize": 10.0,
+    "hp": 2.0,
+    "threat": 3.0,
+    "lock": 2.0,
+    "board": 1.5,
+    "fatigue": 3.0,
+    "danger": -4.0
+   },
+   "seed0": 21200,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 53.2,
+   "score": 0.5,
+   "wins24": 12,
+   "readout": {
+    "mirror_h2h": 0.4167,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 8,
+     "l": 4,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.6667
+    },
+    "v5": {
+     "w": 4,
+     "l": 8,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.3333
+    }
+   },
+   "wall_s": 53.2
+  },
+  {
+   "tag": "r1_danger_x0.5",
+   "weights": {
+    "prize": 10.0,
+    "hp": 2.0,
+    "threat": 3.0,
+    "lock": 2.0,
+    "board": 1.5,
+    "fatigue": 2.0,
+    "danger": -2.0
+   },
+   "seed0": 21300,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 51.4,
+   "score": 0.3333,
+   "wins24": 8,
+   "readout": {
+    "mirror_h2h": 0.4167,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 4,
+     "l": 8,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.3333
+    },
+    "v5": {
+     "w": 4,
+     "l": 8,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.3333
+    }
+   },
+   "wall_s": 51.4
+  },
+  {
+   "tag": "r1_danger_x1.5",
+   "weights": {
+    "prize": 10.0,
+    "hp": 2.0,
+    "threat": 3.0,
+    "lock": 2.0,
+    "board": 1.5,
+    "fatigue": 2.0,
+    "danger": -6.0
+   },
+   "seed0": 21400,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 49.6,
+   "score": 0.625,
+   "wins24": 15,
+   "readout": {
+    "mirror_h2h": 0.4167,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 5,
+     "l": 7,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.4167
+    },
+    "v5": {
+     "w": 10,
+     "l": 2,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.8333
+    }
+   },
+   "wall_s": 49.6
+  },
+  {
+   "tag": "r1_fatigue_x0.5",
+   "weights": {
+    "prize": 10.0,
+    "hp": 2.0,
+    "threat": 3.0,
+    "lock": 2.0,
+    "board": 1.5,
+    "fatigue": 1.0,
+    "danger": -4.0
+   },
+   "seed0": 21600,
+   "n_rows": 36,
+   "budget_cut": false,
+   "sec": 50.7,
+   "score": 0.4583,
+   "wins24": 11,
+   "readout": {
+    "mirror_h2h": 0.3333,
+    "mirror_decided": 12,
+    "ladder": {
+     "w": 8,
+     "l": 4,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.6667
+    },
+    "v5": {
+     "w": 3,
+     "l": 9,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.25
+    }
+   },
+   "wall_s": 50.7
+  }
+ ],
+ "incumbent": {
+  "prize": 10.0,
+  "hp": 2.0,
+  "threat": 3.0,
+  "lock": 2.0,
+  "board": 1.5,
+  "fatigue": 2.0,
+  "danger": -4.0
+ },
+ "incumbent_tag": "r0_baseline",
+ "rounds_run": 1,
+ "counter": 17,
+ "round2": "cancelled_by_task_directive(权重层无红利预期,聚焦收口)",
+ "seed_fix": "r1_fatigue_x0.5 因与 r1_board_x1.5 撞 seed0=21100 重跑于 21600"
+}

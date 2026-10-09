@@ -1,0 +1,22 @@
+# 由 repo_split 生成：继承主库忽略规则（自身路径前缀已改写）
+tools/
+.flow/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+build/
+*.exe
+*.dll
+.DS_Store
+Thumbs.db
+desktop.ini
+.tmp/
+.tmp-plant-audit/
+.video_agent/
+my_LLM_valut/
+.zcodeignore
+my_LLM_valut/raw/pdfs/
+references/episodes/episode-*-replay.json

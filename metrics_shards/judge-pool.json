@@ -1,0 +1,46 @@
+{
+ "category": "judge-pool",
+ "metrics": {
+  "members": {
+   "self": {
+    "win": 32,
+    "loss": 28,
+    "draw": 0,
+    "failed": 0,
+    "n": 60,
+    "winrate": 0.5333
+   },
+   "first": {
+    "win": 7,
+    "loss": 3,
+    "draw": 0,
+    "failed": 0,
+    "n": 10,
+    "winrate": 0.7
+   },
+   "random": {
+    "win": 1,
+    "loss": 9,
+    "draw": 0,
+    "failed": 0,
+    "n": 10,
+    "winrate": 0.1
+   }
+  },
+  "self_mirror_h2h": 0.6,
+  "self_mirror_decided": 20,
+  "n": 40,
+  "reward_mean": 0.0,
+  "reward_stdev": 1.0,
+  "config": {
+   "n_mirror": 20,
+   "n_anchor": 10,
+   "bo": 3,
+   "anchors": [
+    "first",
+    "random"
+   ]
+  }
+ },
+ "source": "judge-pool-2026-10-05.jsonl:L1"
+}

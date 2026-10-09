@@ -1,0 +1,8 @@
+{
+ "category": "metrics-shards",
+ "metrics": {
+  "n_shards": 2,
+  "out_dir": "/tmp/pytest-of-renyxin/pytest-148/test_prepare_end_to_end0/shards"
+ },
+ "source": "metrics-shards-2026-10-05.jsonl:L1"
+}

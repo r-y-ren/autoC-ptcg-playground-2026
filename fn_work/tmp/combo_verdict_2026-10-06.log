@@ -1,0 +1,104 @@
+self-mirror h2h: 0.5 (decided=30/30)
+vs ladder: self_winrate=0.3333 (10W/20L/0D, failed=0)
+vs teacher: self_winrate=0.4 (12W/18L/0D, failed=0)
+vs v5: self_winrate=0.4 (12W/18L/0D, failed=0)
+=== SUMMARY ===
+{
+ "lines": {
+  "vs_ladder": 0.3333333333333333,
+  "vs_v5": 0.4,
+  "vs_teacher": 0.4,
+  "self_mirror_h2h": 0.5
+ },
+ "gate": {
+  "vs_ladder>=0.60": false,
+  "vs_v5>=0.65": false,
+  "self_mirror in [0.35,0.65]": true,
+  "pass": false
+ },
+ "controls": {
+  "vs_random_6": {
+   "self_win": 6,
+   "self_loss": 0,
+   "draw": 0,
+   "failed": 0
+  },
+  "vs_v5_6": {
+   "self_win": 5,
+   "self_loss": 1,
+   "draw": 0,
+   "failed": 0
+  },
+  "vs_teacher_6": {
+   "self_win": 4,
+   "self_loss": 2,
+   "draw": 0,
+   "failed": 0
+  }
+ },
+ "timing": {
+  "pool_wall_s": 152.9,
+  "n_games_timed": 138,
+  "mean_s": 1.27,
+  "max_s": 2.924,
+  "min_s": 0.316,
+  "by_group": {
+   "ctrl_random": {
+    "n": 6,
+    "mean_s": 1.13,
+    "max_s": 2.288
+   },
+   "ctrl_teacher": {
+    "n": 6,
+    "mean_s": 1.01,
+    "max_s": 1.505
+   },
+   "ctrl_v5": {
+    "n": 6,
+    "mean_s": 1.5,
+    "max_s": 2.048
+   },
+   "pool": {
+    "n": 120,
+    "mean_s": 1.27,
+    "max_s": 2.924
+   }
+  }
+ },
+ "anomalies": [],
+ "self_members": {
+  "self": {
+   "win": 64,
+   "loss": 86,
+   "draw": 0,
+   "failed": 0,
+   "n": 150,
+   "winrate": 0.4267
+  },
+  "ladder": {
+   "win": 20,
+   "loss": 10,
+   "draw": 0,
+   "failed": 0,
+   "n": 30,
+   "winrate": 0.6667
+  },
+  "v5": {
+   "win": 18,
+   "loss": 12,
+   "draw": 0,
+   "failed": 0,
+   "n": 30,
+   "winrate": 0.6
+  },
+  "teacher": {
+   "win": 18,
+   "loss": 12,
+   "draw": 0,
+   "failed": 0,
+   "n": 30,
+   "winrate": 0.6
+  }
+ }
+}
+=== END ===

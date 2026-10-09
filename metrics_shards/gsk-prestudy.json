@@ -1,0 +1,22 @@
+{
+ "category": "gsk-prestudy",
+ "metrics": {
+  "env": {
+   "version": "1.33.0",
+   "agents": [
+    2
+   ],
+   "episodeSteps_default": 1000,
+   "runTimeout_default": 1200
+  },
+  "smoke": {
+   "self_mirror_h2h": null,
+   "decided": 0,
+   "draws": 6,
+   "failed": 0,
+   "n_games": 6,
+   "builtin_ai": "manual-template"
+  }
+ },
+ "source": "gsk-prestudy-2026-10-05.jsonl:L7"
+}

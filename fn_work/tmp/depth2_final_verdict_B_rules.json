@@ -1,0 +1,79 @@
+{
+ "arm": "B_rules",
+ "kw": {
+  "fold": "rules"
+ },
+ "seed0": 29000,
+ "report": {
+  "members": {
+   "self": {
+    "win": 85,
+    "loss": 65,
+    "draw": 0,
+    "failed": 0,
+    "n": 150,
+    "winrate": 0.5667
+   },
+   "ladder": {
+    "win": 9,
+    "loss": 21,
+    "draw": 0,
+    "failed": 0,
+    "n": 30,
+    "winrate": 0.3
+   },
+   "v5": {
+    "win": 19,
+    "loss": 11,
+    "draw": 0,
+    "failed": 0,
+    "n": 30,
+    "winrate": 0.6333
+   },
+   "teacher": {
+    "win": 7,
+    "loss": 23,
+    "draw": 0,
+    "failed": 0,
+    "n": 30,
+    "winrate": 0.2333
+   }
+  },
+  "self_mirror_h2h": 0.5,
+  "self_mirror_decided": 30,
+  "n": 120,
+  "reward_mean": 0.0,
+  "reward_stdev": 1.0,
+  "paired_seeds": true,
+  "config": {
+   "n_mirror": 30,
+   "n_anchor": 30,
+   "bo": 3,
+   "seed0": 29000,
+   "seeds": {
+    "mirror": "seed0+i",
+    "anchor": "seed0+1000+i"
+   },
+   "anchors": [
+    "ladder",
+    "teacher",
+    "v5"
+   ]
+  }
+ },
+ "lines": {
+  "vs_ladder": 0.7,
+  "vs_v5": 0.367,
+  "vs_teacher": 0.767,
+  "self_mirror_h2h": 0.5
+ },
+ "timing": {
+  "pool_wall_s": 135.6,
+  "n_games": 120,
+  "mean_s": 1.13,
+  "max_s": 2.037,
+  "dec_ms": 2.1,
+  "n_dec": 24421
+ },
+ "failed": []
+}

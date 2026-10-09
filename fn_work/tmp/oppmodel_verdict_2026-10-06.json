@@ -1,0 +1,232 @@
+{
+ "change": "fna-025 单变量改=搜索内对手模型层升级(_fill 真实分布抽样+_pick_greedy 老师式折叠);叶子与权重冻结",
+ "report": {
+  "members": {
+   "self": {
+    "win": 63,
+    "loss": 87,
+    "draw": 0,
+    "failed": 0,
+    "n": 150,
+    "winrate": 0.42
+   },
+   "ladder": {
+    "win": 21,
+    "loss": 9,
+    "draw": 0,
+    "failed": 0,
+    "n": 30,
+    "winrate": 0.7
+   },
+   "v5": {
+    "win": 19,
+    "loss": 11,
+    "draw": 0,
+    "failed": 0,
+    "n": 30,
+    "winrate": 0.6333
+   },
+   "teacher": {
+    "win": 17,
+    "loss": 13,
+    "draw": 0,
+    "failed": 0,
+    "n": 30,
+    "winrate": 0.5667
+   }
+  },
+  "self_mirror_h2h": 0.6333,
+  "self_mirror_decided": 30,
+  "n": 120,
+  "reward_mean": 0.0,
+  "reward_stdev": 1.0,
+  "paired_seeds": true,
+  "config": {
+   "n_mirror": 30,
+   "n_anchor": 30,
+   "bo": 3,
+   "seed0": 8000,
+   "seeds": {
+    "mirror": "seed0+i",
+    "anchor": "seed0+1000+i"
+   },
+   "anchors": [
+    "ladder",
+    "teacher",
+    "v5"
+   ]
+  }
+ },
+ "lines": {
+  "vs_ladder": 0.3,
+  "vs_v5": 0.36666666666666664,
+  "vs_teacher": 0.43333333333333335,
+  "self_mirror_h2h": 0.6333
+ },
+ "gate": {
+  "vs_ladder>=0.60": false,
+  "vs_v5>=0.65": false,
+  "self_mirror in [0.35,0.65]": true,
+  "pass": false
+ },
+ "controls": {
+  "vs_random_6": {
+   "opponent": "random",
+   "n": 6,
+   "bo": 3,
+   "seed0": 600,
+   "self_win": 6,
+   "self_loss": 0,
+   "draw": 0,
+   "failed": 0,
+   "games": [
+    {
+     "seed": 600,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 601,
+     "swap": true,
+     "result": "win"
+    },
+    {
+     "seed": 602,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 603,
+     "swap": true,
+     "result": "win"
+    },
+    {
+     "seed": 604,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 605,
+     "swap": true,
+     "result": "win"
+    }
+   ]
+  },
+  "vs_v5_6": {
+   "opponent": "v5",
+   "n": 6,
+   "bo": 3,
+   "seed0": 600,
+   "self_win": 3,
+   "self_loss": 3,
+   "draw": 0,
+   "failed": 0,
+   "games": [
+    {
+     "seed": 600,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 601,
+     "swap": true,
+     "result": "win"
+    },
+    {
+     "seed": 602,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 603,
+     "swap": true,
+     "result": "loss"
+    },
+    {
+     "seed": 604,
+     "swap": false,
+     "result": "loss"
+    },
+    {
+     "seed": 605,
+     "swap": true,
+     "result": "loss"
+    }
+   ]
+  },
+  "vs_teacher_6": {
+   "opponent": "teacher",
+   "n": 6,
+   "bo": 3,
+   "seed0": 600,
+   "self_win": 4,
+   "self_loss": 2,
+   "draw": 0,
+   "failed": 0,
+   "games": [
+    {
+     "seed": 600,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 601,
+     "swap": true,
+     "result": "loss"
+    },
+    {
+     "seed": 602,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 603,
+     "swap": true,
+     "result": "win"
+    },
+    {
+     "seed": 604,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 605,
+     "swap": true,
+     "result": "loss"
+    }
+   ]
+  }
+ },
+ "timing": {
+  "pool_wall_s": 152.6,
+  "n_games_timed": 138,
+  "mean_s": 1.26,
+  "max_s": 2.459,
+  "min_s": 0.517,
+  "by_group": {
+   "ctrl_random": {
+    "n": 6,
+    "mean_s": 0.98,
+    "max_s": 1.198
+   },
+   "ctrl_teacher": {
+    "n": 6,
+    "mean_s": 0.97,
+    "max_s": 1.139
+   },
+   "ctrl_v5": {
+    "n": 6,
+    "mean_s": 1.5,
+    "max_s": 1.668
+   },
+   "pool": {
+    "n": 120,
+    "mean_s": 1.27,
+    "max_s": 2.459
+   }
+  }
+ },
+ "anomalies": [],
+ "paired_seeds": true,
+ "determinism_field": null
+}

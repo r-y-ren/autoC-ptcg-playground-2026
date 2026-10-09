@@ -1,0 +1,1068 @@
+{
+ "change": "组合态=对手模型层升级(_fill 真实分布抽样+_pick_greedy 老师式折叠)+叶子奖赏项符号修正(已拿=6−剩余);权重冻结;两改均未 commit",
+ "report": {
+  "members": {
+   "self": {
+    "win": 64,
+    "loss": 86,
+    "draw": 0,
+    "failed": 0,
+    "n": 150,
+    "winrate": 0.4267
+   },
+   "ladder": {
+    "win": 20,
+    "loss": 10,
+    "draw": 0,
+    "failed": 0,
+    "n": 30,
+    "winrate": 0.6667
+   },
+   "v5": {
+    "win": 18,
+    "loss": 12,
+    "draw": 0,
+    "failed": 0,
+    "n": 30,
+    "winrate": 0.6
+   },
+   "teacher": {
+    "win": 18,
+    "loss": 12,
+    "draw": 0,
+    "failed": 0,
+    "n": 30,
+    "winrate": 0.6
+   }
+  },
+  "self_mirror_h2h": 0.5,
+  "self_mirror_decided": 30,
+  "n": 120,
+  "reward_mean": 0.0,
+  "reward_stdev": 1.0,
+  "paired_seeds": true,
+  "config": {
+   "n_mirror": 30,
+   "n_anchor": 30,
+   "bo": 3,
+   "seed0": 11000,
+   "seeds": {
+    "mirror": "seed0+i",
+    "anchor": "seed0+1000+i"
+   },
+   "anchors": [
+    "ladder",
+    "teacher",
+    "v5"
+   ]
+  }
+ },
+ "lines": {
+  "vs_ladder": 0.3333333333333333,
+  "vs_v5": 0.4,
+  "vs_teacher": 0.4,
+  "self_mirror_h2h": 0.5
+ },
+ "gate": {
+  "vs_ladder>=0.60": false,
+  "vs_v5>=0.65": false,
+  "self_mirror in [0.35,0.65]": true,
+  "pass": false
+ },
+ "baselines": {
+  "fna-025_旧叶子+Grookey填充": {
+   "vs_ladder": 0.4,
+   "vs_v5": 0.433,
+   "vs_teacher": 0.667,
+   "self_mirror_h2h": 0.567,
+   "seed0": 9000
+  },
+  "fna-026_反号叶子+对手模型": {
+   "vs_ladder": 0.3,
+   "vs_v5": 0.367,
+   "vs_teacher": 0.433,
+   "self_mirror_h2h": 0.633,
+   "seed0": 8000
+  }
+ },
+ "controls": {
+  "vs_random_6": {
+   "opponent": "random",
+   "n": 6,
+   "bo": 3,
+   "seed0": 600,
+   "self_win": 6,
+   "self_loss": 0,
+   "draw": 0,
+   "failed": 0,
+   "games": [
+    {
+     "seed": 600,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 601,
+     "swap": true,
+     "result": "win"
+    },
+    {
+     "seed": 602,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 603,
+     "swap": true,
+     "result": "win"
+    },
+    {
+     "seed": 604,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 605,
+     "swap": true,
+     "result": "win"
+    }
+   ]
+  },
+  "vs_v5_6": {
+   "opponent": "v5",
+   "n": 6,
+   "bo": 3,
+   "seed0": 600,
+   "self_win": 5,
+   "self_loss": 1,
+   "draw": 0,
+   "failed": 0,
+   "games": [
+    {
+     "seed": 600,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 601,
+     "swap": true,
+     "result": "win"
+    },
+    {
+     "seed": 602,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 603,
+     "swap": true,
+     "result": "win"
+    },
+    {
+     "seed": 604,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 605,
+     "swap": true,
+     "result": "loss"
+    }
+   ]
+  },
+  "vs_teacher_6": {
+   "opponent": "teacher",
+   "n": 6,
+   "bo": 3,
+   "seed0": 600,
+   "self_win": 4,
+   "self_loss": 2,
+   "draw": 0,
+   "failed": 0,
+   "games": [
+    {
+     "seed": 600,
+     "swap": false,
+     "result": "loss"
+    },
+    {
+     "seed": 601,
+     "swap": true,
+     "result": "win"
+    },
+    {
+     "seed": 602,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 603,
+     "swap": true,
+     "result": "win"
+    },
+    {
+     "seed": 604,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 605,
+     "swap": true,
+     "result": "loss"
+    }
+   ]
+  }
+ },
+ "games_detail": {
+  "mirror": [
+   {
+    "i": 0,
+    "seed": 11000,
+    "result": "seat0_win",
+    "n_steps": 490
+   },
+   {
+    "i": 1,
+    "seed": 11001,
+    "result": "seat0_win",
+    "n_steps": 542
+   },
+   {
+    "i": 2,
+    "seed": 11002,
+    "result": "seat0_win",
+    "n_steps": 254
+   },
+   {
+    "i": 3,
+    "seed": 11003,
+    "result": "seat1_win",
+    "n_steps": 349
+   },
+   {
+    "i": 4,
+    "seed": 11004,
+    "result": "seat1_win",
+    "n_steps": 345
+   },
+   {
+    "i": 5,
+    "seed": 11005,
+    "result": "seat1_win",
+    "n_steps": 501
+   },
+   {
+    "i": 6,
+    "seed": 11006,
+    "result": "seat1_win",
+    "n_steps": 351
+   },
+   {
+    "i": 7,
+    "seed": 11007,
+    "result": "seat0_win",
+    "n_steps": 255
+   },
+   {
+    "i": 8,
+    "seed": 11008,
+    "result": "seat1_win",
+    "n_steps": 254
+   },
+   {
+    "i": 9,
+    "seed": 11009,
+    "result": "seat1_win",
+    "n_steps": 375
+   },
+   {
+    "i": 10,
+    "seed": 11010,
+    "result": "seat0_win",
+    "n_steps": 487
+   },
+   {
+    "i": 11,
+    "seed": 11011,
+    "result": "seat1_win",
+    "n_steps": 222
+   },
+   {
+    "i": 12,
+    "seed": 11012,
+    "result": "seat0_win",
+    "n_steps": 579
+   },
+   {
+    "i": 13,
+    "seed": 11013,
+    "result": "seat0_win",
+    "n_steps": 309
+   },
+   {
+    "i": 14,
+    "seed": 11014,
+    "result": "seat0_win",
+    "n_steps": 193
+   },
+   {
+    "i": 15,
+    "seed": 11015,
+    "result": "seat0_win",
+    "n_steps": 285
+   },
+   {
+    "i": 16,
+    "seed": 11016,
+    "result": "seat0_win",
+    "n_steps": 366
+   },
+   {
+    "i": 17,
+    "seed": 11017,
+    "result": "seat1_win",
+    "n_steps": 474
+   },
+   {
+    "i": 18,
+    "seed": 11018,
+    "result": "seat0_win",
+    "n_steps": 263
+   },
+   {
+    "i": 19,
+    "seed": 11019,
+    "result": "seat1_win",
+    "n_steps": 293
+   },
+   {
+    "i": 20,
+    "seed": 11020,
+    "result": "seat0_win",
+    "n_steps": 496
+   },
+   {
+    "i": 21,
+    "seed": 11021,
+    "result": "seat1_win",
+    "n_steps": 347
+   },
+   {
+    "i": 22,
+    "seed": 11022,
+    "result": "seat1_win",
+    "n_steps": 331
+   },
+   {
+    "i": 23,
+    "seed": 11023,
+    "result": "seat1_win",
+    "n_steps": 323
+   },
+   {
+    "i": 24,
+    "seed": 11024,
+    "result": "seat1_win",
+    "n_steps": 473
+   },
+   {
+    "i": 25,
+    "seed": 11025,
+    "result": "seat1_win",
+    "n_steps": 360
+   },
+   {
+    "i": 26,
+    "seed": 11026,
+    "result": "seat0_win",
+    "n_steps": 316
+   },
+   {
+    "i": 27,
+    "seed": 11027,
+    "result": "seat1_win",
+    "n_steps": 254
+   },
+   {
+    "i": 28,
+    "seed": 11028,
+    "result": "seat0_win",
+    "n_steps": 294
+   },
+   {
+    "i": 29,
+    "seed": 11029,
+    "result": "seat0_win",
+    "n_steps": 347
+   }
+  ],
+  "ladder": [
+   {
+    "i": 0,
+    "seed": 12000,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 416
+   },
+   {
+    "i": 1,
+    "seed": 12001,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 300
+   },
+   {
+    "i": 2,
+    "seed": 12002,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 455
+   },
+   {
+    "i": 3,
+    "seed": 12003,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 200
+   },
+   {
+    "i": 4,
+    "seed": 12004,
+    "swap": false,
+    "result": "win",
+    "n_steps": 527
+   },
+   {
+    "i": 5,
+    "seed": 12005,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 208
+   },
+   {
+    "i": 6,
+    "seed": 12006,
+    "swap": false,
+    "result": "win",
+    "n_steps": 279
+   },
+   {
+    "i": 7,
+    "seed": 12007,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 190
+   },
+   {
+    "i": 8,
+    "seed": 12008,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 364
+   },
+   {
+    "i": 9,
+    "seed": 12009,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 369
+   },
+   {
+    "i": 10,
+    "seed": 12010,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 272
+   },
+   {
+    "i": 11,
+    "seed": 12011,
+    "swap": true,
+    "result": "win",
+    "n_steps": 234
+   },
+   {
+    "i": 12,
+    "seed": 12012,
+    "swap": false,
+    "result": "win",
+    "n_steps": 332
+   },
+   {
+    "i": 13,
+    "seed": 12013,
+    "swap": true,
+    "result": "win",
+    "n_steps": 455
+   },
+   {
+    "i": 14,
+    "seed": 12014,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 554
+   },
+   {
+    "i": 15,
+    "seed": 12015,
+    "swap": true,
+    "result": "win",
+    "n_steps": 298
+   },
+   {
+    "i": 16,
+    "seed": 12016,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 277
+   },
+   {
+    "i": 17,
+    "seed": 12017,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 435
+   },
+   {
+    "i": 18,
+    "seed": 12018,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 467
+   },
+   {
+    "i": 19,
+    "seed": 12019,
+    "swap": true,
+    "result": "win",
+    "n_steps": 323
+   },
+   {
+    "i": 20,
+    "seed": 12020,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 426
+   },
+   {
+    "i": 21,
+    "seed": 12021,
+    "swap": true,
+    "result": "win",
+    "n_steps": 353
+   },
+   {
+    "i": 22,
+    "seed": 12022,
+    "swap": false,
+    "result": "win",
+    "n_steps": 410
+   },
+   {
+    "i": 23,
+    "seed": 12023,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 295
+   },
+   {
+    "i": 24,
+    "seed": 12024,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 241
+   },
+   {
+    "i": 25,
+    "seed": 12025,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 237
+   },
+   {
+    "i": 26,
+    "seed": 12026,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 278
+   },
+   {
+    "i": 27,
+    "seed": 12027,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 202
+   },
+   {
+    "i": 28,
+    "seed": 12028,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 485
+   },
+   {
+    "i": 29,
+    "seed": 12029,
+    "swap": true,
+    "result": "win",
+    "n_steps": 364
+   }
+  ],
+  "v5": [
+   {
+    "i": 0,
+    "seed": 12000,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 388
+   },
+   {
+    "i": 1,
+    "seed": 12001,
+    "swap": true,
+    "result": "win",
+    "n_steps": 417
+   },
+   {
+    "i": 2,
+    "seed": 12002,
+    "swap": false,
+    "result": "win",
+    "n_steps": 437
+   },
+   {
+    "i": 3,
+    "seed": 12003,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 567
+   },
+   {
+    "i": 4,
+    "seed": 12004,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 339
+   },
+   {
+    "i": 5,
+    "seed": 12005,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 262
+   },
+   {
+    "i": 6,
+    "seed": 12006,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 267
+   },
+   {
+    "i": 7,
+    "seed": 12007,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 408
+   },
+   {
+    "i": 8,
+    "seed": 12008,
+    "swap": false,
+    "result": "win",
+    "n_steps": 542
+   },
+   {
+    "i": 9,
+    "seed": 12009,
+    "swap": true,
+    "result": "win",
+    "n_steps": 517
+   },
+   {
+    "i": 10,
+    "seed": 12010,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 390
+   },
+   {
+    "i": 11,
+    "seed": 12011,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 492
+   },
+   {
+    "i": 12,
+    "seed": 12012,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 167
+   },
+   {
+    "i": 13,
+    "seed": 12013,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 322
+   },
+   {
+    "i": 14,
+    "seed": 12014,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 349
+   },
+   {
+    "i": 15,
+    "seed": 12015,
+    "swap": true,
+    "result": "win",
+    "n_steps": 324
+   },
+   {
+    "i": 16,
+    "seed": 12016,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 411
+   },
+   {
+    "i": 17,
+    "seed": 12017,
+    "swap": true,
+    "result": "win",
+    "n_steps": 247
+   },
+   {
+    "i": 18,
+    "seed": 12018,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 394
+   },
+   {
+    "i": 19,
+    "seed": 12019,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 481
+   },
+   {
+    "i": 20,
+    "seed": 12020,
+    "swap": false,
+    "result": "win",
+    "n_steps": 493
+   },
+   {
+    "i": 21,
+    "seed": 12021,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 345
+   },
+   {
+    "i": 22,
+    "seed": 12022,
+    "swap": false,
+    "result": "win",
+    "n_steps": 426
+   },
+   {
+    "i": 23,
+    "seed": 12023,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 200
+   },
+   {
+    "i": 24,
+    "seed": 12024,
+    "swap": false,
+    "result": "win",
+    "n_steps": 166
+   },
+   {
+    "i": 25,
+    "seed": 12025,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 286
+   },
+   {
+    "i": 26,
+    "seed": 12026,
+    "swap": false,
+    "result": "win",
+    "n_steps": 221
+   },
+   {
+    "i": 27,
+    "seed": 12027,
+    "swap": true,
+    "result": "win",
+    "n_steps": 229
+   },
+   {
+    "i": 28,
+    "seed": 12028,
+    "swap": false,
+    "result": "win",
+    "n_steps": 416
+   },
+   {
+    "i": 29,
+    "seed": 12029,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 246
+   }
+  ],
+  "teacher": [
+   {
+    "i": 0,
+    "seed": 12000,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 130
+   },
+   {
+    "i": 1,
+    "seed": 12001,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 271
+   },
+   {
+    "i": 2,
+    "seed": 12002,
+    "swap": false,
+    "result": "win",
+    "n_steps": 300
+   },
+   {
+    "i": 3,
+    "seed": 12003,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 234
+   },
+   {
+    "i": 4,
+    "seed": 12004,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 296
+   },
+   {
+    "i": 5,
+    "seed": 12005,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 224
+   },
+   {
+    "i": 6,
+    "seed": 12006,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 496
+   },
+   {
+    "i": 7,
+    "seed": 12007,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 148
+   },
+   {
+    "i": 8,
+    "seed": 12008,
+    "swap": false,
+    "result": "win",
+    "n_steps": 360
+   },
+   {
+    "i": 9,
+    "seed": 12009,
+    "swap": true,
+    "result": "win",
+    "n_steps": 364
+   },
+   {
+    "i": 10,
+    "seed": 12010,
+    "swap": false,
+    "result": "win",
+    "n_steps": 206
+   },
+   {
+    "i": 11,
+    "seed": 12011,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 210
+   },
+   {
+    "i": 12,
+    "seed": 12012,
+    "swap": false,
+    "result": "win",
+    "n_steps": 213
+   },
+   {
+    "i": 13,
+    "seed": 12013,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 284
+   },
+   {
+    "i": 14,
+    "seed": 12014,
+    "swap": false,
+    "result": "win",
+    "n_steps": 266
+   },
+   {
+    "i": 15,
+    "seed": 12015,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 165
+   },
+   {
+    "i": 16,
+    "seed": 12016,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 233
+   },
+   {
+    "i": 17,
+    "seed": 12017,
+    "swap": true,
+    "result": "win",
+    "n_steps": 156
+   },
+   {
+    "i": 18,
+    "seed": 12018,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 213
+   },
+   {
+    "i": 19,
+    "seed": 12019,
+    "swap": true,
+    "result": "win",
+    "n_steps": 322
+   },
+   {
+    "i": 20,
+    "seed": 12020,
+    "swap": false,
+    "result": "win",
+    "n_steps": 332
+   },
+   {
+    "i": 21,
+    "seed": 12021,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 402
+   },
+   {
+    "i": 22,
+    "seed": 12022,
+    "swap": false,
+    "result": "win",
+    "n_steps": 334
+   },
+   {
+    "i": 23,
+    "seed": 12023,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 379
+   },
+   {
+    "i": 24,
+    "seed": 12024,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 231
+   },
+   {
+    "i": 25,
+    "seed": 12025,
+    "swap": true,
+    "result": "win",
+    "n_steps": 379
+   },
+   {
+    "i": 26,
+    "seed": 12026,
+    "swap": false,
+    "result": "loss",
+    "n_steps": 310
+   },
+   {
+    "i": 27,
+    "seed": 12027,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 193
+   },
+   {
+    "i": 28,
+    "seed": 12028,
+    "swap": false,
+    "result": "win",
+    "n_steps": 285
+   },
+   {
+    "i": 29,
+    "seed": 12029,
+    "swap": true,
+    "result": "loss",
+    "n_steps": 172
+   }
+  ]
+ },
+ "timing": {
+  "pool_wall_s": 152.9,
+  "n_games_timed": 138,
+  "mean_s": 1.27,
+  "max_s": 2.924,
+  "min_s": 0.316,
+  "by_group": {
+   "ctrl_random": {
+    "n": 6,
+    "mean_s": 1.13,
+    "max_s": 2.288
+   },
+   "ctrl_teacher": {
+    "n": 6,
+    "mean_s": 1.01,
+    "max_s": 1.505
+   },
+   "ctrl_v5": {
+    "n": 6,
+    "mean_s": 1.5,
+    "max_s": 2.048
+   },
+   "pool": {
+    "n": 120,
+    "mean_s": 1.27,
+    "max_s": 2.924
+   }
+  }
+ },
+ "anomalies": [],
+ "paired_seeds": true,
+ "determinism_field": null
+}

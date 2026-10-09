@@ -1,0 +1,360 @@
+{
+ "task": "七权重网格消融·续跑收口(fna-027 接力):round1 补完 + 30 局四线收口",
+ "weights_order": [
+  "prize",
+  "hp",
+  "threat",
+  "lock",
+  "board",
+  "fatigue",
+  "danger"
+ ],
+ "default_weights": {
+  "prize": 10.0,
+  "hp": 2.0,
+  "threat": 3.0,
+  "lock": 2.0,
+  "board": 1.5,
+  "fatigue": 2.0,
+  "danger": -4.0
+ },
+ "part1_续跑配置表": {
+  "resumed_5rows": [
+   {
+    "tag": "r1_board_x1.5",
+    "seed0": 21100,
+    "weights_delta": {
+     "board": 2.25
+    },
+    "score": 0.5,
+    "wins24": 12,
+    "ladder": "6W/6L",
+    "v5": "6W/6L",
+    "mirror_h2h": 0.4167,
+    "sec": 52.3
+   },
+   {
+    "tag": "r1_fatigue_x1.5",
+    "seed0": 21200,
+    "weights_delta": {
+     "fatigue": 3.0
+    },
+    "score": 0.5,
+    "wins24": 12,
+    "ladder": "8W/4L",
+    "v5": "4W/8L",
+    "mirror_h2h": 0.4167,
+    "sec": 53.2
+   },
+   {
+    "tag": "r1_danger_x0.5",
+    "seed0": 21300,
+    "weights_delta": {
+     "danger": -2.0
+    },
+    "score": 0.3333,
+    "wins24": 8,
+    "ladder": "4W/8L",
+    "v5": "4W/8L",
+    "mirror_h2h": 0.4167,
+    "sec": 51.4
+   },
+   {
+    "tag": "r1_danger_x1.5",
+    "seed0": 21400,
+    "weights_delta": {
+     "danger": -6.0
+    },
+    "score": 0.625,
+    "wins24": 15,
+    "ladder": "5W/7L",
+    "v5": "10W/2L",
+    "mirror_h2h": 0.4167,
+    "sec": 49.6
+   },
+   {
+    "tag": "r1_fatigue_x0.5",
+    "seed0": 21600,
+    "weights_delta": {
+     "fatigue": 1.0
+    },
+    "score": 0.4583,
+    "wins24": 11,
+    "ladder": "8W/4L",
+    "v5": "3W/9L",
+    "mirror_h2h": 0.3333,
+    "sec": 50.7
+   }
+  ],
+  "round1_full_table": [
+   {
+    "tag": "r0_baseline",
+    "seed0": 20000,
+    "score": 0.5416,
+    "wins24": 13,
+    "vs_baseline_wins24": 0
+   },
+   {
+    "tag": "r1_prize_x0.5",
+    "seed0": 20100,
+    "score": 0.4584,
+    "wins24": 11,
+    "vs_baseline_wins24": -2
+   },
+   {
+    "tag": "r1_prize_x1.5",
+    "seed0": 20200,
+    "score": 0.4167,
+    "wins24": 10,
+    "vs_baseline_wins24": -3
+   },
+   {
+    "tag": "r1_hp_x0.5",
+    "seed0": 20300,
+    "score": 0.5,
+    "wins24": 12,
+    "vs_baseline_wins24": -1
+   },
+   {
+    "tag": "r1_hp_x1.5",
+    "seed0": 20400,
+    "score": 0.4583,
+    "wins24": 11,
+    "vs_baseline_wins24": -2
+   },
+   {
+    "tag": "r1_threat_x0.5",
+    "seed0": 20500,
+    "score": 0.5,
+    "wins24": 12,
+    "vs_baseline_wins24": -1
+   },
+   {
+    "tag": "r1_threat_x1.5",
+    "seed0": 20600,
+    "score": 0.3333,
+    "wins24": 8,
+    "vs_baseline_wins24": -5
+   },
+   {
+    "tag": "r1_lock_x0.5",
+    "seed0": 20700,
+    "score": 0.5417,
+    "wins24": 13,
+    "vs_baseline_wins24": 0
+   },
+   {
+    "tag": "r1_lock_x1.5",
+    "seed0": 20800,
+    "score": 0.2916,
+    "wins24": 7,
+    "vs_baseline_wins24": -6
+   },
+   {
+    "tag": "r1_board_x0.5",
+    "seed0": 20900,
+    "score": 0.5417,
+    "wins24": 13,
+    "vs_baseline_wins24": 0
+   },
+   {
+    "tag": "r1_board_x1.5",
+    "seed0": 21100,
+    "score": 0.5,
+    "wins24": 12,
+    "vs_baseline_wins24": -1
+   },
+   {
+    "tag": "r1_fatigue_x1.5",
+    "seed0": 21200,
+    "score": 0.5,
+    "wins24": 12,
+    "vs_baseline_wins24": -1
+   },
+   {
+    "tag": "r1_danger_x0.5",
+    "seed0": 21300,
+    "score": 0.3333,
+    "wins24": 8,
+    "vs_baseline_wins24": -5
+   },
+   {
+    "tag": "r1_danger_x1.5",
+    "seed0": 21400,
+    "score": 0.625,
+    "wins24": 15,
+    "vs_baseline_wins24": 2
+   },
+   {
+    "tag": "r1_fatigue_x0.5",
+    "seed0": 21600,
+    "score": 0.4583,
+    "wins24": 11,
+    "vs_baseline_wins24": -2
+   }
+  ],
+  "adoption_rule": "score 更高且 wins24 ≥+2 局(24 锚局合计胜局,引擎熵护栏)",
+  "adoption_outcome": {
+   "prize/hp/threat/lock/board/fatigue": "×0.5/×1.5 全部无增益(≤0 局),维持默认",
+   "danger": "×1.5(-4→-6)过采纳线:wins24 13→15(+2),score 0.5416→0.625;×0.5(-2)大幅劣化(wins24=8)"
+  },
+  "incumbent_after_screen": {
+   "danger": -6.0
+  },
+  "round2": "取消(任务指令;且确认层未兑现,无进入 round2 的依据)"
+ },
+ "part2_收口判决": {
+  "note": "任务书预期筛选全无增益并把 seed0=26000 指给基线收口;实际 danger×1.5 过筛选线,故 26000 收口落在 adopted(danger=-6)上,现行基线收口按原协议补在 seed0=25000。两份读数并列,均 30 局四线、bo3、anchors={ladder,v5,teacher}、deck=META。",
+  "baseline_pure_seed25000": {
+   "weights": {
+    "prize": 10.0,
+    "hp": 2.0,
+    "threat": 3.0,
+    "lock": 2.0,
+    "board": 1.5,
+    "fatigue": 2.0,
+    "danger": -4.0
+   },
+   "readout": {
+    "mirror_h2h": 0.4667,
+    "mirror_decided": 30,
+    "ladder": {
+     "w": 10,
+     "l": 20,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.3333
+    },
+    "v5": {
+     "w": 19,
+     "l": 11,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.6333
+    },
+    "teacher": {
+     "w": 16,
+     "l": 14,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.5333
+    }
+   },
+   "vs_ref_12000": {
+    "delta": {
+     "vs_ladder": -0.1667,
+     "vs_v5": 0.1,
+     "vs_teacher": -0.1667,
+     "self_mirror_h2h": 0.1
+    }
+   },
+   "gate": {
+    "vs_ladder>=0.60": false,
+    "vs_v5>=0.65": false,
+    "self_mirror in [0.35,0.65]": true,
+    "pass": false
+   },
+   "mirror_seat_check": null,
+   "wall_s": 165.0
+  },
+  "adopted_danger6_seed26000": {
+   "weights": {
+    "prize": 10.0,
+    "hp": 2.0,
+    "threat": 3.0,
+    "lock": 2.0,
+    "board": 1.5,
+    "fatigue": 2.0,
+    "danger": -6.0
+   },
+   "readout": {
+    "mirror_h2h": 0.4667,
+    "mirror_decided": 30,
+    "ladder": {
+     "w": 13,
+     "l": 17,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.4333
+    },
+    "v5": {
+     "w": 12,
+     "l": 18,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.4
+    },
+    "teacher": {
+     "w": 18,
+     "l": 12,
+     "d": 0,
+     "failed": 0,
+     "wr": 0.6
+    }
+   },
+   "vs_ref_12000": {
+    "delta": {
+     "vs_ladder": -0.0667,
+     "vs_v5": -0.1333,
+     "vs_teacher": -0.1,
+     "self_mirror_h2h": 0.1
+    }
+   },
+   "gate": {
+    "vs_ladder>=0.60": false,
+    "vs_v5>=0.65": false,
+    "self_mirror in [0.35,0.65]": true,
+    "pass": false
+   },
+   "wall_s": 154.6
+  },
+  "ref_12000": {
+   "vs_ladder": 0.5,
+   "vs_v5": 0.5333,
+   "vs_teacher": 0.7,
+   "self_mirror_h2h": 0.3667
+  },
+  "same_family_hist_band": {
+   "seed0=9000(search_meta 判决)": {
+    "vs_ladder": 0.4,
+    "vs_v5": 0.4333,
+    "vs_teacher": 0.6667,
+    "self_mirror_h2h": 0.5667
+   },
+   "seed0=12000(保留组合,ref)": {
+    "vs_ladder": 0.5,
+    "vs_v5": 0.5333,
+    "vs_teacher": 0.7,
+    "self_mirror_h2h": 0.3667
+   }
+  },
+  "gate_note": "在案门槛 vs_ladder≥0.60/vs_v5≥0.65 两收口均未过——与 12000 轮保留组合读数同题(该门槛在保留组合当时亦未过,gate pass=false 是在案状态,非本次回归)"
+ },
+ "part3_异常与限界": {
+  "stoppage": "原代理 07:15 停摆于 r1_board_x1.5;接力续 counter 无读数损失",
+  "seed_dup_fix": "r1_board_x1.5 与 r1_fatigue_x0.5 曾撞 seed0=21100(续跑跳号失误);fatigue_x0.5 已重跑于 seed0=21600 并替换旧行;seed 21000/21300 空号(无害)",
+  "seed_assignment": "筛选 20000-20900(原)+21100/21200/21400/21500/21600(续);收口 25000(基线)/26000(adopted);双席专查 27000",
+  "budget_cuts": [],
+  "failed_games_total": 0,
+  "noise_limits": "筛选 24 锚局:±1-2 局即 ±0.04-0.08 score,采纳线 +2 局恰在噪声边缘;30 局四线:wr 标准误 ≈±0.09;同族 agent 历史池间摆动实测 ±0.10(vs_ladder 0.400→0.500,vs_teacher 0.667→0.700,vs_v5 0.433→0.533);danger×1.5 的确认读数落在该带内,不能与基线区分",
+  "ref_composition": "ref@12000=保留组合(厚叶子+符号修+Grookey 填充);现行 agent 同族(search_lookahead._fill 仍为 Grookey 89+能量 3),可比,仅 seed 不同",
+  "code_hygiene": "search_lookahead.py 的消融改动=纯参数化(W_KEYS/DEFAULT_WEIGHTS/resolve_weights,weights=None 时与旧版逐位一致),默认值未动;pytest tests/ 70 passed(2026-10-06)"
+ },
+ "part4_建议": {
+  "verdict": "权重层无可靠红利:14 个单变量配置中 13 个无增益;唯一过筛选线的 danger×1.5(+2 局)在 30 局确认中未兑现(vs_ref 全线 -0.067/-0.133/-0.100,读数在同族历史带内)。现行七权重(prize10/hp2/threat3/lock2/board1.5/fatigue2/danger-4)冻结为默认,不改 search_lookahead 默认值;danger×1.5 归档为'未确认候选',不单独立项。",
+  "next_single_variable_ranking": [
+   {
+    "rank": 1,
+    "option": "搜索加深(rollout 2 轮)",
+    "why": "权重坐标 14 配置证明价值函数标度已饱和,剩余增益在'看得更远'而非'称得更准';搜索深度是消融未覆盖的正交自由度(tmp/search_meta_verdict 只测过默认深度);同口径 12+12+12 筛选可半天出读数,工程风险低(只改 rollout 循环参数化)"
+   },
+   {
+    "rank": 2,
+    "option": "部署实测优先",
+    "why": "同族 agent 三个 seed 池读数摆动 ±0.10,仿真内比较已贴近噪声地板,继续堆仿真局数边际收益低;真实对手分布能校准 ladder/v5/teacher 锚点的盲区,为下一步优化给方向"
+   }
+  ],
+  "ordering_rationale": "先深搜后部署,但部署准备(环境/账号/对手渠道)建议并行启动:深搜便宜且同 harness 可复判,若其复判亦无 ≥+2 局增益,则仿真层判定榨干,全力转部署,不再回仿真调参。"
+ },
+ "wall_s_total_finalize": 165.0
+}

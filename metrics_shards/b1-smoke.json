@@ -1,0 +1,17 @@
+{
+ "category": "b1-smoke",
+ "metrics": {
+  "seed": 1,
+  "rewards": [
+   1,
+   -1
+  ],
+  "n_steps": 71,
+  "wins": [
+   2,
+   0,
+   0
+  ]
+ },
+ "source": "b1-smoke-2026-10-05.jsonl:L1"
+}

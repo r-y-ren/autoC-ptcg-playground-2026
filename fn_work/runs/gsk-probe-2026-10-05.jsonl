@@ -1,0 +1,4 @@
+{"ts": "2026-10-05T02:59:14", "category": "gsk-probe", "status": "not-live", "evidence": {"ts": "2026-10-05T02:59:11", "cli": {"found": false, "stdout_head": "No competitions found\n"}, "http": {"status": 404}}}
+{"ts": "2026-10-05T09:10:56", "category": "gsk-probe", "status": "not-live", "evidence": {"ts": "2026-10-05T09:10:53", "cli": {"found": false, "stdout_head": "No competitions found\n"}, "http": {"status": 404}}}
+{"ts": "2026-10-05T21:28:55", "category": "gsk-probe", "status": "not-live", "evidence": {"ts": "2026-10-05T21:28:52", "cli": {"found": false, "stdout_head": "No competitions found\n"}, "http": {"status": 404}}}
+{"ts": "2026-10-05T23:36:51", "category": "gsk-probe", "status": "not-live", "evidence": {"ts": "2026-10-05T23:36:49", "cli": {"found": false, "stdout_head": "No competitions found\n"}, "http": {"status": 404}}}

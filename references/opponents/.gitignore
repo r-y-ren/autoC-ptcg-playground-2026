@@ -1,0 +1,6 @@
+# 外部仓库只入库代码:git 元数据与引擎二进制不入库(对外分发须剥离,见 INDEX.md)
+*/.git/
+*/cg/*.so
+*/cg/*.dll
+*/cg/*.dylib
+*/cg/libcg*

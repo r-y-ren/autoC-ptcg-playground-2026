@@ -1,0 +1,10 @@
+{
+ "category": "pack-quota",
+ "metrics": {
+  "tar": "submission.tar.gz",
+  "ok": true,
+  "issues": [],
+  "force": false
+ },
+ "source": "pack-quota-2026-10-05.jsonl:L2"
+}

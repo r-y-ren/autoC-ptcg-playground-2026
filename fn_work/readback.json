@@ -1,0 +1,3 @@
+{"ladder_mu": 600.0, "ladder_mu_date": "2026-10-05",
+ "source_url": "https://www.kaggle.com/competitions/the-pokemon-company-ptcg-ai-battle-challenge-playground/submissions",
+ "note": "首提 ref 56831987 验证局通过，初始 μ=600（SubmissionStatus.COMPLETE，CLI submissions 回读）"}

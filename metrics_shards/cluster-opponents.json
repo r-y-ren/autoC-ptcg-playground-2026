@@ -1,0 +1,12 @@
+{
+ "category": "cluster-opponents",
+ "metrics": {
+  "n_prototypes": 2,
+  "n_episodes": 12,
+  "prototype_ids": [
+   0,
+   1
+  ]
+ },
+ "source": "cluster-opponents-2026-10-05.jsonl:L16"
+}

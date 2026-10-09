@@ -1,0 +1,6 @@
+{"ts": "2026-10-05T02:47:31", "category": "pack-quota", "tar": "submission.tar.gz", "ok": true, "issues": [], "force": false}
+{"ts": "2026-10-05T03:04:26", "category": "pack-quota", "tar": "submission.tar.gz", "ok": true, "issues": [], "force": false}
+{"ts": "2026-10-05T03:37:14", "category": "pack-quota", "tar": "submission.tar.gz", "ok": false, "issues": ["顶层缺 main.py", "顶层缺 deck.csv"], "force": false}
+{"ts": "2026-10-05T03:37:35", "category": "pack-quota", "tar": "submission.tar.gz", "ok": true, "issues": [], "force": false}
+{"ts": "2026-10-05T13:23:43", "category": "pack-quota", "tar": "submission.tar.gz", "ok": true, "issues": [], "force": false}
+{"ts": "2026-10-05T13:56:23", "category": "pack-quota", "tar": "submission.tar.gz", "ok": true, "issues": [], "force": true}

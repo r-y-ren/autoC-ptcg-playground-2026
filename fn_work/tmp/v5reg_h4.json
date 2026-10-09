@@ -1,0 +1,900 @@
+{
+ "rules": {
+  "tag": "rules",
+  "seed0": 30000,
+  "n": 30,
+  "W": 14,
+  "L": 16,
+  "D": 0,
+  "wr": 0.467,
+  "games": [
+   {
+    "i": 0,
+    "seed": 31000,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 385
+   },
+   {
+    "i": 1,
+    "seed": 31001,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 499
+   },
+   {
+    "i": 2,
+    "seed": 31002,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 250
+   },
+   {
+    "i": 3,
+    "seed": 31003,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 409
+   },
+   {
+    "i": 4,
+    "seed": 31004,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 374
+   },
+   {
+    "i": 5,
+    "seed": 31005,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 462
+   },
+   {
+    "i": 6,
+    "seed": 31006,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 539
+   },
+   {
+    "i": 7,
+    "seed": 31007,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 328
+   },
+   {
+    "i": 8,
+    "seed": 31008,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 296
+   },
+   {
+    "i": 9,
+    "seed": 31009,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 303
+   },
+   {
+    "i": 10,
+    "seed": 31010,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 512
+   },
+   {
+    "i": 11,
+    "seed": 31011,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 239
+   },
+   {
+    "i": 12,
+    "seed": 31012,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 410
+   },
+   {
+    "i": 13,
+    "seed": 31013,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 506
+   },
+   {
+    "i": 14,
+    "seed": 31014,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 237
+   },
+   {
+    "i": 15,
+    "seed": 31015,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 531
+   },
+   {
+    "i": 16,
+    "seed": 31016,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 459
+   },
+   {
+    "i": 17,
+    "seed": 31017,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 226
+   },
+   {
+    "i": 18,
+    "seed": 31018,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 323
+   },
+   {
+    "i": 19,
+    "seed": 31019,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 342
+   },
+   {
+    "i": 20,
+    "seed": 31020,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 433
+   },
+   {
+    "i": 21,
+    "seed": 31021,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 497
+   },
+   {
+    "i": 22,
+    "seed": 31022,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 370
+   },
+   {
+    "i": 23,
+    "seed": 31023,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 230
+   },
+   {
+    "i": 24,
+    "seed": 31024,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 412
+   },
+   {
+    "i": 25,
+    "seed": 31025,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 406
+   },
+   {
+    "i": 26,
+    "seed": 31026,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 390
+   },
+   {
+    "i": 27,
+    "seed": 31027,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 496
+   },
+   {
+    "i": 28,
+    "seed": 31028,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 322
+   },
+   {
+    "i": 29,
+    "seed": 31029,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 189
+   }
+  ]
+ },
+ "greedy": {
+  "tag": "greedy",
+  "seed0": 30000,
+  "n": 30,
+  "W": 18,
+  "L": 12,
+  "D": 0,
+  "wr": 0.6,
+  "games": [
+   {
+    "i": 0,
+    "seed": 31000,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 561
+   },
+   {
+    "i": 1,
+    "seed": 31001,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 518
+   },
+   {
+    "i": 2,
+    "seed": 31002,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 256
+   },
+   {
+    "i": 3,
+    "seed": 31003,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 234
+   },
+   {
+    "i": 4,
+    "seed": 31004,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 567
+   },
+   {
+    "i": 5,
+    "seed": 31005,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 345
+   },
+   {
+    "i": 6,
+    "seed": 31006,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 330
+   },
+   {
+    "i": 7,
+    "seed": 31007,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 291
+   },
+   {
+    "i": 8,
+    "seed": 31008,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 561
+   },
+   {
+    "i": 9,
+    "seed": 31009,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 518
+   },
+   {
+    "i": 10,
+    "seed": 31010,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 443
+   },
+   {
+    "i": 11,
+    "seed": 31011,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 556
+   },
+   {
+    "i": 12,
+    "seed": 31012,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 161
+   },
+   {
+    "i": 13,
+    "seed": 31013,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 345
+   },
+   {
+    "i": 14,
+    "seed": 31014,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 460
+   },
+   {
+    "i": 15,
+    "seed": 31015,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 591
+   },
+   {
+    "i": 16,
+    "seed": 31016,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 316
+   },
+   {
+    "i": 17,
+    "seed": 31017,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 517
+   },
+   {
+    "i": 18,
+    "seed": 31018,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 364
+   },
+   {
+    "i": 19,
+    "seed": 31019,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 511
+   },
+   {
+    "i": 20,
+    "seed": 31020,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 407
+   },
+   {
+    "i": 21,
+    "seed": 31021,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 329
+   },
+   {
+    "i": 22,
+    "seed": 31022,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 253
+   },
+   {
+    "i": 23,
+    "seed": 31023,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 315
+   },
+   {
+    "i": 24,
+    "seed": 31024,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 495
+   },
+   {
+    "i": 25,
+    "seed": 31025,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 469
+   },
+   {
+    "i": 26,
+    "seed": 31026,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false,
+    "n_steps": 332
+   },
+   {
+    "i": 27,
+    "seed": 31027,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 348
+   },
+   {
+    "i": 28,
+    "seed": 31028,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 397
+   },
+   {
+    "i": 29,
+    "seed": 31029,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false,
+    "n_steps": 477
+   }
+  ]
+ },
+ "paired": [
+  {
+   "i": 0,
+   "rules": "L",
+   "greedy": "L"
+  },
+  {
+   "i": 1,
+   "rules": "W",
+   "greedy": "W"
+  },
+  {
+   "i": 2,
+   "rules": "W",
+   "greedy": "L"
+  },
+  {
+   "i": 3,
+   "rules": "L",
+   "greedy": "W"
+  },
+  {
+   "i": 4,
+   "rules": "W",
+   "greedy": "W"
+  },
+  {
+   "i": 5,
+   "rules": "L",
+   "greedy": "W"
+  },
+  {
+   "i": 6,
+   "rules": "L",
+   "greedy": "L"
+  },
+  {
+   "i": 7,
+   "rules": "W",
+   "greedy": "L"
+  },
+  {
+   "i": 8,
+   "rules": "L",
+   "greedy": "L"
+  },
+  {
+   "i": 9,
+   "rules": "W",
+   "greedy": "W"
+  },
+  {
+   "i": 10,
+   "rules": "W",
+   "greedy": "W"
+  },
+  {
+   "i": 11,
+   "rules": "W",
+   "greedy": "L"
+  },
+  {
+   "i": 12,
+   "rules": "L",
+   "greedy": "W"
+  },
+  {
+   "i": 13,
+   "rules": "W",
+   "greedy": "W"
+  },
+  {
+   "i": 14,
+   "rules": "L",
+   "greedy": "L"
+  },
+  {
+   "i": 15,
+   "rules": "L",
+   "greedy": "L"
+  },
+  {
+   "i": 16,
+   "rules": "L",
+   "greedy": "W"
+  },
+  {
+   "i": 17,
+   "rules": "L",
+   "greedy": "L"
+  },
+  {
+   "i": 18,
+   "rules": "L",
+   "greedy": "W"
+  },
+  {
+   "i": 19,
+   "rules": "W",
+   "greedy": "L"
+  },
+  {
+   "i": 20,
+   "rules": "L",
+   "greedy": "W"
+  },
+  {
+   "i": 21,
+   "rules": "L",
+   "greedy": "W"
+  },
+  {
+   "i": 22,
+   "rules": "W",
+   "greedy": "W"
+  },
+  {
+   "i": 23,
+   "rules": "W",
+   "greedy": "L"
+  },
+  {
+   "i": 24,
+   "rules": "W",
+   "greedy": "W"
+  },
+  {
+   "i": 25,
+   "rules": "L",
+   "greedy": "W"
+  },
+  {
+   "i": 26,
+   "rules": "W",
+   "greedy": "W"
+  },
+  {
+   "i": 27,
+   "rules": "W",
+   "greedy": "W"
+  },
+  {
+   "i": 28,
+   "rules": "L",
+   "greedy": "L"
+  },
+  {
+   "i": 29,
+   "rules": "L",
+   "greedy": "W"
+  }
+ ],
+ "pair_delta": {
+  "rules_only_W": 5,
+  "greedy_only_W": 9
+ }
+}

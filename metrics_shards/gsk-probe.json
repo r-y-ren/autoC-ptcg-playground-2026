@@ -1,0 +1,17 @@
+{
+ "category": "gsk-probe",
+ "metrics": {
+  "status": "not-live",
+  "evidence": {
+   "ts": "2026-10-05T02:59:11",
+   "cli": {
+    "found": false,
+    "stdout_head": "No competitions found\n"
+   },
+   "http": {
+    "status": 404
+   }
+  }
+ },
+ "source": "gsk-probe-2026-10-05.jsonl:L1"
+}

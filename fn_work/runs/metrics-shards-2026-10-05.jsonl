@@ -1,0 +1,2 @@
+{"ts": "2026-10-05T02:56:55", "category": "metrics-shards", "n_shards": 2, "out_dir": "/tmp/pytest-of-renyxin/pytest-148/test_prepare_end_to_end0/shards"}
+{"ts": "2026-10-05T03:16:09", "category": "metrics-shards", "n_shards": 10, "out_dir": "metrics_shards"}

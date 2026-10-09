@@ -1,0 +1,234 @@
+{
+ "cell": "新号+Grookey(符号修正+通用填充;对手模型补丁已回滚)",
+ "change": "2×2 第 4 格:fna-025 基线上仅改叶子奖赏项符号(prize=剩余堆→已拿=6−剩余);_fill=Grookey 89/Basic{W} 3、_pick_greedy 攻击优先折叠、厚叶子五项与凸折价全部保持 fna-025 态",
+ "seed0": 12000,
+ "report": {
+  "members": {
+   "self": {
+    "win": 82,
+    "loss": 68,
+    "draw": 0,
+    "failed": 0,
+    "n": 150,
+    "winrate": 0.5467
+   },
+   "ladder": {
+    "win": 15,
+    "loss": 15,
+    "draw": 0,
+    "failed": 0,
+    "n": 30,
+    "winrate": 0.5
+   },
+   "v5": {
+    "win": 14,
+    "loss": 16,
+    "draw": 0,
+    "failed": 0,
+    "n": 30,
+    "winrate": 0.4667
+   },
+   "teacher": {
+    "win": 9,
+    "loss": 21,
+    "draw": 0,
+    "failed": 0,
+    "n": 30,
+    "winrate": 0.3
+   }
+  },
+  "self_mirror_h2h": 0.3667,
+  "self_mirror_decided": 30,
+  "n": 120,
+  "reward_mean": 0.0,
+  "reward_stdev": 1.0,
+  "paired_seeds": true,
+  "config": {
+   "n_mirror": 30,
+   "n_anchor": 30,
+   "bo": 3,
+   "seed0": 12000,
+   "seeds": {
+    "mirror": "seed0+i",
+    "anchor": "seed0+1000+i"
+   },
+   "anchors": [
+    "ladder",
+    "teacher",
+    "v5"
+   ]
+  }
+ },
+ "lines": {
+  "vs_ladder": 0.5,
+  "vs_v5": 0.5333333333333333,
+  "vs_teacher": 0.7,
+  "self_mirror_h2h": 0.3667
+ },
+ "gate": {
+  "vs_ladder>=0.60": false,
+  "vs_v5>=0.65": false,
+  "self_mirror in [0.35,0.65]": true,
+  "pass": false
+ },
+ "controls": {
+  "vs_random_6": {
+   "opponent": "random",
+   "n": 6,
+   "bo": 3,
+   "seed0": 600,
+   "self_win": 5,
+   "self_loss": 1,
+   "draw": 0,
+   "failed": 0,
+   "games": [
+    {
+     "seed": 600,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 601,
+     "swap": true,
+     "result": "win"
+    },
+    {
+     "seed": 602,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 603,
+     "swap": true,
+     "result": "win"
+    },
+    {
+     "seed": 604,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 605,
+     "swap": true,
+     "result": "loss"
+    }
+   ]
+  },
+  "vs_v5_6": {
+   "opponent": "v5",
+   "n": 6,
+   "bo": 3,
+   "seed0": 600,
+   "self_win": 1,
+   "self_loss": 5,
+   "draw": 0,
+   "failed": 0,
+   "games": [
+    {
+     "seed": 600,
+     "swap": false,
+     "result": "loss"
+    },
+    {
+     "seed": 601,
+     "swap": true,
+     "result": "loss"
+    },
+    {
+     "seed": 602,
+     "swap": false,
+     "result": "loss"
+    },
+    {
+     "seed": 603,
+     "swap": true,
+     "result": "loss"
+    },
+    {
+     "seed": 604,
+     "swap": false,
+     "result": "loss"
+    },
+    {
+     "seed": 605,
+     "swap": true,
+     "result": "win"
+    }
+   ]
+  },
+  "vs_teacher_6": {
+   "opponent": "teacher",
+   "n": 6,
+   "bo": 3,
+   "seed0": 600,
+   "self_win": 4,
+   "self_loss": 2,
+   "draw": 0,
+   "failed": 0,
+   "games": [
+    {
+     "seed": 600,
+     "swap": false,
+     "result": "loss"
+    },
+    {
+     "seed": 601,
+     "swap": true,
+     "result": "win"
+    },
+    {
+     "seed": 602,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 603,
+     "swap": true,
+     "result": "win"
+    },
+    {
+     "seed": 604,
+     "swap": false,
+     "result": "win"
+    },
+    {
+     "seed": 605,
+     "swap": true,
+     "result": "loss"
+    }
+   ]
+  }
+ },
+ "timing": {
+  "pool_wall_s": 158.2,
+  "n_games_timed": 138,
+  "mean_s": 1.3,
+  "max_s": 3.077,
+  "min_s": 0.318,
+  "by_group": {
+   "ctrl_random": {
+    "n": 6,
+    "mean_s": 1.3,
+    "max_s": 1.702
+   },
+   "ctrl_teacher": {
+    "n": 6,
+    "mean_s": 0.83,
+    "max_s": 1.258
+   },
+   "ctrl_v5": {
+    "n": 6,
+    "mean_s": 1.51,
+    "max_s": 1.928
+   },
+   "pool": {
+    "n": 120,
+    "mean_s": 1.32,
+    "max_s": 3.077
+   }
+  }
+ },
+ "anomalies": [],
+ "paired_seeds": true,
+ "determinism_field": null
+}

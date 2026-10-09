@@ -1,0 +1,3437 @@
+[
+ {
+  "file": "episode-117452360-replay.json",
+  "eid": 117452360,
+  "steps": 600,
+  "viz": 601,
+  "n_results": 3,
+  "results": [
+   [
+    212,
+    1,
+    0
+   ],
+   [
+    422,
+    1,
+    1
+   ],
+   [
+    600,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Darren Sheehan",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117458047-replay.json",
+  "eid": 117458047,
+  "steps": 373,
+  "viz": 373,
+  "n_results": 2,
+  "results": [
+   [
+    185,
+    1,
+    1
+   ],
+   [
+    372,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Matterhorn3838",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117459476-replay.json",
+  "eid": 117459476,
+  "steps": 358,
+  "viz": 358,
+  "n_results": 2,
+  "results": [
+   [
+    150,
+    3,
+    1
+   ],
+   [
+    357,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Philipp k-s",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117459490-replay.json",
+  "eid": 117459490,
+  "steps": 356,
+  "viz": 356,
+  "n_results": 2,
+  "results": [
+   [
+    161,
+    3,
+    0
+   ],
+   [
+    355,
+    3,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Darren Sheehan",
+   "AlejandroAlvarez"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117460945-replay.json",
+  "eid": 117460945,
+  "steps": 341,
+  "viz": 341,
+  "n_results": 2,
+  "results": [
+   [
+    208,
+    1,
+    0
+   ],
+   [
+    340,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Darren Sheehan",
+   "Ramanath Rakshit"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117462370-replay.json",
+  "eid": 117462370,
+  "steps": 391,
+  "viz": 391,
+  "n_results": 2,
+  "results": [
+   [
+    210,
+    1,
+    1
+   ],
+   [
+    390,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "JerryChen",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117681447-replay.json",
+  "eid": 117681447,
+  "steps": 187,
+  "viz": 187,
+  "n_results": 2,
+  "results": [
+   [
+    23,
+    3,
+    1
+   ],
+   [
+    186,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117684277-replay.json",
+  "eid": 117684277,
+  "steps": 266,
+  "viz": 266,
+  "n_results": 2,
+  "results": [
+   [
+    84,
+    3,
+    0
+   ],
+   [
+    265,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "choqui62"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117685701-replay.json",
+  "eid": 117685701,
+  "steps": 204,
+  "viz": 204,
+  "n_results": 2,
+  "results": [
+   [
+    69,
+    3,
+    1
+   ],
+   [
+    203,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "moky",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117687169-replay.json",
+  "eid": 117687169,
+  "steps": 267,
+  "viz": 267,
+  "n_results": 2,
+  "results": [
+   [
+    132,
+    1,
+    1
+   ],
+   [
+    266,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "RoboPlayz",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117688606-replay.json",
+  "eid": 117688606,
+  "steps": 251,
+  "viz": 251,
+  "n_results": 2,
+  "results": [
+   [
+    140,
+    1,
+    0
+   ],
+   [
+    250,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "Belati Jagad Bintang Syuhada"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117690038-replay.json",
+  "eid": 117690038,
+  "steps": 367,
+  "viz": 368,
+  "n_results": 3,
+  "results": [
+   [
+    159,
+    1,
+    1
+   ],
+   [
+    274,
+    1,
+    0
+   ],
+   [
+    367,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "YumeNeko",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117899384-replay.json",
+  "eid": 117899384,
+  "steps": 402,
+  "viz": 403,
+  "n_results": 3,
+  "results": [
+   [
+    148,
+    1,
+    0
+   ],
+   [
+    273,
+    1,
+    1
+   ],
+   [
+    402,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117905121-replay.json",
+  "eid": 117905121,
+  "steps": 132,
+  "viz": 132,
+  "n_results": 2,
+  "results": [
+   [
+    95,
+    1,
+    1
+   ],
+   [
+    131,
+    3,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Ranbeer Singh 1313",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117931244-replay.json",
+  "eid": 117931244,
+  "steps": 125,
+  "viz": 125,
+  "n_results": 2,
+  "results": [
+   [
+    89,
+    3,
+    0
+   ],
+   [
+    124,
+    3,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "Clark Kitchen"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117944683-replay.json",
+  "eid": 117944683,
+  "steps": 394,
+  "viz": 394,
+  "n_results": 2,
+  "results": [
+   [
+    157,
+    1,
+    1
+   ],
+   [
+    393,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Darren Sheehan",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117950618-replay.json",
+  "eid": 117950618,
+  "steps": 321,
+  "viz": 321,
+  "n_results": 2,
+  "results": [
+   [
+    165,
+    1,
+    0
+   ],
+   [
+    320,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "YumeNeko",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117950645-replay.json",
+  "eid": 117950645,
+  "steps": 190,
+  "viz": 190,
+  "n_results": 2,
+  "results": [
+   [
+    162,
+    1,
+    1
+   ],
+   [
+    189,
+    3,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117961089-replay.json",
+  "eid": 117961089,
+  "steps": 503,
+  "viz": 504,
+  "n_results": 3,
+  "results": [
+   [
+    221,
+    1,
+    0
+   ],
+   [
+    354,
+    1,
+    1
+   ],
+   [
+    503,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117963987-replay.json",
+  "eid": 117963987,
+  "steps": 185,
+  "viz": 185,
+  "n_results": 2,
+  "results": [
+   [
+    78,
+    3,
+    1
+   ],
+   [
+    184,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "mm bbAlez",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117965466-replay.json",
+  "eid": 117965466,
+  "steps": 166,
+  "viz": 166,
+  "n_results": 2,
+  "results": [
+   [
+    133,
+    1,
+    0
+   ],
+   [
+    165,
+    3,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Ritesh-2006"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117965501-replay.json",
+  "eid": 117965501,
+  "steps": 270,
+  "viz": 270,
+  "n_results": 2,
+  "results": [
+   [
+    164,
+    1,
+    1
+   ],
+   [
+    269,
+    3,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Darren Sheehan",
+   "sue124"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117966923-replay.json",
+  "eid": 117966923,
+  "steps": 211,
+  "viz": 211,
+  "n_results": 2,
+  "results": [
+   [
+    88,
+    3,
+    0
+   ],
+   [
+    210,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Roman Nesterov"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117966952-replay.json",
+  "eid": 117966952,
+  "steps": 373,
+  "viz": 374,
+  "n_results": 3,
+  "results": [
+   [
+    156,
+    1,
+    1
+   ],
+   [
+    326,
+    1,
+    0
+   ],
+   [
+    373,
+    3,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117968378-replay.json",
+  "eid": 117968378,
+  "steps": 358,
+  "viz": 359,
+  "n_results": 3,
+  "results": [
+   [
+    142,
+    1,
+    0
+   ],
+   [
+    267,
+    1,
+    1
+   ],
+   [
+    358,
+    3,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "アルモンド",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117969825-replay.json",
+  "eid": 117969825,
+  "steps": 300,
+  "viz": 300,
+  "n_results": 2,
+  "results": [
+   [
+    159,
+    1,
+    1
+   ],
+   [
+    299,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "match051",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117980082-replay.json",
+  "eid": 117980082,
+  "steps": 342,
+  "viz": 342,
+  "n_results": 2,
+  "results": [
+   [
+    145,
+    1,
+    0
+   ],
+   [
+    341,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Darren Sheehan",
+   "YumeNeko"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117981541-replay.json",
+  "eid": 117981541,
+  "steps": 288,
+  "viz": 288,
+  "n_results": 2,
+  "results": [
+   [
+    138,
+    1,
+    0
+   ],
+   [
+    287,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117988835-replay.json",
+  "eid": 117988835,
+  "steps": 506,
+  "viz": 507,
+  "n_results": 3,
+  "results": [
+   [
+    192,
+    1,
+    1
+   ],
+   [
+    337,
+    1,
+    0
+   ],
+   [
+    506,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "YumeNeko",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-117996042-replay.json",
+  "eid": 117996042,
+  "steps": 431,
+  "viz": 432,
+  "n_results": 3,
+  "results": [
+   [
+    114,
+    1,
+    0
+   ],
+   [
+    294,
+    1,
+    1
+   ],
+   [
+    431,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118001772-replay.json",
+  "eid": 118001772,
+  "steps": 362,
+  "viz": 362,
+  "n_results": 2,
+  "results": [
+   [
+    181,
+    1,
+    0
+   ],
+   [
+    361,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Darren Sheehan",
+   "sue124"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118003207-replay.json",
+  "eid": 118003207,
+  "steps": 645,
+  "viz": 646,
+  "n_results": 3,
+  "results": [
+   [
+    226,
+    1,
+    1
+   ],
+   [
+    400,
+    1,
+    0
+   ],
+   [
+    645,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118010395-replay.json",
+  "eid": 118010395,
+  "steps": 607,
+  "viz": 608,
+  "n_results": 3,
+  "results": [
+   [
+    185,
+    1,
+    1
+   ],
+   [
+    404,
+    1,
+    0
+   ],
+   [
+    607,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Darren Sheehan",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118016122-replay.json",
+  "eid": 118016122,
+  "steps": 508,
+  "viz": 509,
+  "n_results": 3,
+  "results": [
+   [
+    215,
+    1,
+    1
+   ],
+   [
+    368,
+    1,
+    0
+   ],
+   [
+    508,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118023280-replay.json",
+  "eid": 118023280,
+  "steps": 423,
+  "viz": 424,
+  "n_results": 3,
+  "results": [
+   [
+    118,
+    1,
+    1
+   ],
+   [
+    280,
+    1,
+    0
+   ],
+   [
+    423,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118023303-replay.json",
+  "eid": 118023303,
+  "steps": 482,
+  "viz": 483,
+  "n_results": 3,
+  "results": [
+   [
+    158,
+    1,
+    1
+   ],
+   [
+    328,
+    1,
+    0
+   ],
+   [
+    482,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "JerryChen",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118024714-replay.json",
+  "eid": 118024714,
+  "steps": 195,
+  "viz": 195,
+  "n_results": 2,
+  "results": [
+   [
+    30,
+    3,
+    0
+   ],
+   [
+    194,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118027574-replay.json",
+  "eid": 118027574,
+  "steps": 592,
+  "viz": 593,
+  "n_results": 3,
+  "results": [
+   [
+    156,
+    1,
+    1
+   ],
+   [
+    377,
+    1,
+    0
+   ],
+   [
+    592,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Darren Sheehan",
+   "sue124"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118027578-replay.json",
+  "eid": 118027578,
+  "steps": 313,
+  "viz": 313,
+  "n_results": 2,
+  "results": [
+   [
+    162,
+    1,
+    0
+   ],
+   [
+    312,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118029008-replay.json",
+  "eid": 118029008,
+  "steps": 543,
+  "viz": 544,
+  "n_results": 3,
+  "results": [
+   [
+    211,
+    1,
+    0
+   ],
+   [
+    371,
+    1,
+    1
+   ],
+   [
+    543,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118030439-replay.json",
+  "eid": 118030439,
+  "steps": 573,
+  "viz": 574,
+  "n_results": 3,
+  "results": [
+   [
+    183,
+    1,
+    1
+   ],
+   [
+    392,
+    1,
+    0
+   ],
+   [
+    573,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118030454-replay.json",
+  "eid": 118030454,
+  "steps": 577,
+  "viz": 578,
+  "n_results": 3,
+  "results": [
+   [
+    194,
+    1,
+    0
+   ],
+   [
+    413,
+    1,
+    1
+   ],
+   [
+    577,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Raihan Ramadistra",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118031871-replay.json",
+  "eid": 118031871,
+  "steps": 174,
+  "viz": 174,
+  "n_results": 2,
+  "results": [
+   [
+    20,
+    3,
+    1
+   ],
+   [
+    173,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "sue124",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118033388-replay.json",
+  "eid": 118033388,
+  "steps": 494,
+  "viz": 495,
+  "n_results": 3,
+  "results": [
+   [
+    151,
+    1,
+    1
+   ],
+   [
+    352,
+    2,
+    0
+   ],
+   [
+    494,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "sue124",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118034821-replay.json",
+  "eid": 118034821,
+  "steps": 271,
+  "viz": 271,
+  "n_results": 2,
+  "results": [
+   [
+    148,
+    1,
+    0
+   ],
+   [
+    270,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "fake conquerors"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118036247-replay.json",
+  "eid": 118036247,
+  "steps": 190,
+  "viz": 190,
+  "n_results": 2,
+  "results": [
+   [
+    69,
+    3,
+    0
+   ],
+   [
+    189,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118037672-replay.json",
+  "eid": 118037672,
+  "steps": 350,
+  "viz": 350,
+  "n_results": 2,
+  "results": [
+   [
+    185,
+    1,
+    0
+   ],
+   [
+    349,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118037695-replay.json",
+  "eid": 118037695,
+  "steps": 334,
+  "viz": 335,
+  "n_results": 3,
+  "results": [
+   [
+    129,
+    1,
+    1
+   ],
+   [
+    281,
+    1,
+    0
+   ],
+   [
+    334,
+    3,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "renyxin",
+   "renyxin"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118039099-replay.json",
+  "eid": 118039099,
+  "steps": 454,
+  "viz": 455,
+  "n_results": 3,
+  "results": [
+   [
+    152,
+    1,
+    1
+   ],
+   [
+    300,
+    1,
+    0
+   ],
+   [
+    454,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Capitaalgain",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118040505-replay.json",
+  "eid": 118040505,
+  "steps": 241,
+  "viz": 241,
+  "n_results": 2,
+  "results": [
+   [
+    118,
+    1,
+    0
+   ],
+   [
+    240,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "renyxin",
+   "Hokuto Tokutake"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118040527-replay.json",
+  "eid": 118040527,
+  "steps": 538,
+  "viz": 539,
+  "n_results": 3,
+  "results": [
+   [
+    230,
+    1,
+    0
+   ],
+   [
+    381,
+    1,
+    1
+   ],
+   [
+    538,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Darren Sheehan",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118040543-replay.json",
+  "eid": 118040543,
+  "steps": 523,
+  "viz": 524,
+  "n_results": 3,
+  "results": [
+   [
+    74,
+    3,
+    0
+   ],
+   [
+    322,
+    1,
+    1
+   ],
+   [
+    523,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "No Free MIST Energy",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118041933-replay.json",
+  "eid": 118041933,
+  "steps": 176,
+  "viz": 176,
+  "n_results": 2,
+  "results": [
+   [
+    115,
+    3,
+    1
+   ],
+   [
+    175,
+    3,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "renyxin",
+   "Adisak Sukul"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118041953-replay.json",
+  "eid": 118041953,
+  "steps": 537,
+  "viz": 538,
+  "n_results": 3,
+  "results": [
+   [
+    184,
+    1,
+    0
+   ],
+   [
+    382,
+    1,
+    1
+   ],
+   [
+    537,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Leon Liu"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118041966-replay.json",
+  "eid": 118041966,
+  "steps": 344,
+  "viz": 344,
+  "n_results": 2,
+  "results": [
+   [
+    212,
+    1,
+    0
+   ],
+   [
+    343,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Morim",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118043362-replay.json",
+  "eid": 118043362,
+  "steps": 118,
+  "viz": 118,
+  "n_results": 2,
+  "results": [
+   [
+    70,
+    3,
+    1
+   ],
+   [
+    117,
+    3,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "renyxin",
+   "mo"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118043383-replay.json",
+  "eid": 118043383,
+  "steps": 270,
+  "viz": 270,
+  "n_results": 2,
+  "results": [
+   [
+    122,
+    1,
+    0
+   ],
+   [
+    269,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "sue124"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118044787-replay.json",
+  "eid": 118044787,
+  "steps": 65,
+  "viz": 65,
+  "n_results": 2,
+  "results": [
+   [
+    36,
+    3,
+    1
+   ],
+   [
+    64,
+    3,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "renyxin",
+   "fake conquerors"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118046213-replay.json",
+  "eid": 118046213,
+  "steps": 225,
+  "viz": 225,
+  "n_results": 2,
+  "results": [
+   [
+    102,
+    3,
+    0
+   ],
+   [
+    224,
+    2,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Kevin Rio Harristyando",
+   "renyxin"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118047640-replay.json",
+  "eid": 118047640,
+  "steps": 245,
+  "viz": 245,
+  "n_results": 2,
+  "results": [
+   [
+    111,
+    3,
+    0
+   ],
+   [
+    244,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Richard Guo",
+   "renyxin"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118047680-replay.json",
+  "eid": 118047680,
+  "steps": 358,
+  "viz": 359,
+  "n_results": 3,
+  "results": [
+   [
+    141,
+    1,
+    0
+   ],
+   [
+    265,
+    1,
+    1
+   ],
+   [
+    358,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "renyxin",
+   "Zapaxe"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118339328-replay.json",
+  "eid": 118339328,
+  "steps": 631,
+  "viz": 632,
+  "n_results": 3,
+  "results": [
+   [
+    183,
+    1,
+    0
+   ],
+   [
+    423,
+    1,
+    1
+   ],
+   [
+    631,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118355047-replay.json",
+  "eid": 118355047,
+  "steps": 264,
+  "viz": 264,
+  "n_results": 2,
+  "results": [
+   [
+    136,
+    1,
+    1
+   ],
+   [
+    263,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118356472-replay.json",
+  "eid": 118356472,
+  "steps": 333,
+  "viz": 333,
+  "n_results": 2,
+  "results": [
+   [
+    147,
+    1,
+    1
+   ],
+   [
+    332,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "バーベナヘレナでコンボ決めたい連合"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118366658-replay.json",
+  "eid": 118366658,
+  "steps": 253,
+  "viz": 253,
+  "n_results": 2,
+  "results": [
+   [
+    72,
+    3,
+    0
+   ],
+   [
+    252,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Darren Sheehan",
+   "ZHIRUI ZHAO"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118369527-replay.json",
+  "eid": 118369527,
+  "steps": 281,
+  "viz": 281,
+  "n_results": 2,
+  "results": [
+   [
+    151,
+    1,
+    1
+   ],
+   [
+    280,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "バーベナヘレナでコンボ決めたい連合"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118371001-replay.json",
+  "eid": 118371001,
+  "steps": 301,
+  "viz": 301,
+  "n_results": 2,
+  "results": [
+   [
+    174,
+    1,
+    0
+   ],
+   [
+    300,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Igor Zharov"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118377018-replay.json",
+  "eid": 118377018,
+  "steps": 295,
+  "viz": 295,
+  "n_results": 2,
+  "results": [
+   [
+    153,
+    1,
+    0
+   ],
+   [
+    294,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "JerryChen",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118377025-replay.json",
+  "eid": 118377025,
+  "steps": 516,
+  "viz": 517,
+  "n_results": 3,
+  "results": [
+   [
+    185,
+    1,
+    0
+   ],
+   [
+    359,
+    1,
+    1
+   ],
+   [
+    516,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118378538-replay.json",
+  "eid": 118378538,
+  "steps": 251,
+  "viz": 251,
+  "n_results": 2,
+  "results": [
+   [
+    53,
+    3,
+    1
+   ],
+   [
+    250,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118381535-replay.json",
+  "eid": 118381535,
+  "steps": 319,
+  "viz": 319,
+  "n_results": 2,
+  "results": [
+   [
+    138,
+    1,
+    0
+   ],
+   [
+    318,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "YumeNeko",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118386126-replay.json",
+  "eid": 118386126,
+  "steps": 300,
+  "viz": 300,
+  "n_results": 2,
+  "results": [
+   [
+    151,
+    1,
+    1
+   ],
+   [
+    299,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "バーベナヘレナでコンボ決めたい連合"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118386129-replay.json",
+  "eid": 118386129,
+  "steps": 188,
+  "viz": 188,
+  "n_results": 2,
+  "results": [
+   [
+    101,
+    1,
+    0
+   ],
+   [
+    187,
+    3,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "バーベナヘレナでコンボ決めたい連合",
+   "Kitaev"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118387639-replay.json",
+  "eid": 118387639,
+  "steps": 418,
+  "viz": 419,
+  "n_results": 3,
+  "results": [
+   [
+    66,
+    3,
+    1
+   ],
+   [
+    238,
+    1,
+    0
+   ],
+   [
+    418,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "バーベナヘレナでコンボ決めたい連合",
+   "Leon Liu"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118391981-replay.json",
+  "eid": 118391981,
+  "steps": 294,
+  "viz": 294,
+  "n_results": 2,
+  "results": [
+   [
+    148,
+    1,
+    1
+   ],
+   [
+    293,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "YumeNeko",
+   "JerryChen"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118391986-replay.json",
+  "eid": 118391986,
+  "steps": 312,
+  "viz": 312,
+  "n_results": 2,
+  "results": [
+   [
+    155,
+    1,
+    0
+   ],
+   [
+    311,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118400609-replay.json",
+  "eid": 118400609,
+  "steps": 305,
+  "viz": 305,
+  "n_results": 2,
+  "results": [
+   [
+    147,
+    1,
+    1
+   ],
+   [
+    304,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "バーベナヘレナでコンボ決めたい連合",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118400619-replay.json",
+  "eid": 118400619,
+  "steps": 138,
+  "viz": 138,
+  "n_results": 2,
+  "results": [
+   [
+    77,
+    3,
+    1
+   ],
+   [
+    137,
+    3,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Tanishq das",
+   "バーベナヘレナでコンボ決めたい連合"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118400621-replay.json",
+  "eid": 118400621,
+  "steps": 464,
+  "viz": 465,
+  "n_results": 3,
+  "results": [
+   [
+    204,
+    1,
+    0
+   ],
+   [
+    412,
+    1,
+    1
+   ],
+   [
+    464,
+    3,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Leon Liu",
+   "バーベナヘレナでコンボ決めたい連合"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118406354-replay.json",
+  "eid": 118406354,
+  "steps": 312,
+  "viz": 313,
+  "n_results": 3,
+  "results": [
+   [
+    198,
+    1,
+    1
+   ],
+   [
+    263,
+    3,
+    0
+   ],
+   [
+    312,
+    3,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "JerryChen",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118406355-replay.json",
+  "eid": 118406355,
+  "steps": 433,
+  "viz": 434,
+  "n_results": 3,
+  "results": [
+   [
+    90,
+    3,
+    0
+   ],
+   [
+    266,
+    1,
+    1
+   ],
+   [
+    433,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "sue124"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118406356-replay.json",
+  "eid": 118406356,
+  "steps": 221,
+  "viz": 221,
+  "n_results": 2,
+  "results": [
+   [
+    20,
+    3,
+    0
+   ],
+   [
+    220,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "JerryChen"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118406359-replay.json",
+  "eid": 118406359,
+  "steps": 492,
+  "viz": 493,
+  "n_results": 3,
+  "results": [
+   [
+    169,
+    1,
+    0
+   ],
+   [
+    331,
+    1,
+    1
+   ],
+   [
+    492,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "OceanMix",
+   "JerryChen"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118406360-replay.json",
+  "eid": 118406360,
+  "steps": 343,
+  "viz": 343,
+  "n_results": 2,
+  "results": [
+   [
+    163,
+    1,
+    1
+   ],
+   [
+    342,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Darren Sheehan",
+   "YumeNeko"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118407783-replay.json",
+  "eid": 118407783,
+  "steps": 368,
+  "viz": 368,
+  "n_results": 2,
+  "results": [
+   [
+    168,
+    1,
+    1
+   ],
+   [
+    367,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Darren Sheehan",
+   "バーベナヘレナでコンボ決めたい連合"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118413558-replay.json",
+  "eid": 118413558,
+  "steps": 320,
+  "viz": 320,
+  "n_results": 2,
+  "results": [
+   [
+    182,
+    1,
+    0
+   ],
+   [
+    319,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Leon Liu",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118414987-replay.json",
+  "eid": 118414987,
+  "steps": 418,
+  "viz": 419,
+  "n_results": 3,
+  "results": [
+   [
+    135,
+    1,
+    0
+   ],
+   [
+    272,
+    1,
+    1
+   ],
+   [
+    418,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "YumeNeko",
+   "JerryChen"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118451035-replay.json",
+  "eid": 118451035,
+  "steps": 212,
+  "viz": 212,
+  "n_results": 2,
+  "results": [
+   [
+    131,
+    1,
+    1
+   ],
+   [
+    211,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Gholamali Aminian",
+   "バーベナヘレナでコンボ決めたい連合"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118456808-replay.json",
+  "eid": 118456808,
+  "steps": 360,
+  "viz": 361,
+  "n_results": 3,
+  "results": [
+   [
+    72,
+    3,
+    0
+   ],
+   [
+    204,
+    1,
+    1
+   ],
+   [
+    360,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "バーベナヘレナでコンボ決めたい連合",
+   "Stephen Schott"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118464037-replay.json",
+  "eid": 118464037,
+  "steps": 376,
+  "viz": 377,
+  "n_results": 3,
+  "results": [
+   [
+    116,
+    1,
+    0
+   ],
+   [
+    250,
+    1,
+    1
+   ],
+   [
+    376,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "バーベナヘレナでコンボ決めたい連合"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118469822-replay.json",
+  "eid": 118469822,
+  "steps": 409,
+  "viz": 410,
+  "n_results": 3,
+  "results": [
+   [
+    123,
+    1,
+    0
+   ],
+   [
+    284,
+    1,
+    1
+   ],
+   [
+    409,
+    1,
+    0
+   ]
+  ],
+  "rewards": [
+   1,
+   -1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "バーベナヘレナでコンボ決めたい連合"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118474143-replay.json",
+  "eid": 118474143,
+  "steps": 604,
+  "viz": 605,
+  "n_results": 3,
+  "results": [
+   [
+    187,
+    1,
+    1
+   ],
+   [
+    368,
+    1,
+    0
+   ],
+   [
+    604,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "Stephen Schott",
+   "Darren Sheehan"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ },
+ {
+  "file": "episode-118477069-replay.json",
+  "eid": 118477069,
+  "steps": 370,
+  "viz": 370,
+  "n_results": 2,
+  "results": [
+   [
+    190,
+    1,
+    1
+   ],
+   [
+    369,
+    1,
+    1
+   ]
+  ],
+  "rewards": [
+   -1,
+   1
+  ],
+  "statuses": [
+   "DONE",
+   "DONE"
+  ],
+  "teams": [
+   "バーベナヘレナでコンボ決めたい連合",
+   "OceanMix"
+  ],
+  "last_status": [
+   "DONE",
+   "DONE"
+  ]
+ }
+]

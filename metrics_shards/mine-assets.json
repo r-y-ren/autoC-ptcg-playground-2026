@@ -1,0 +1,11 @@
+{
+ "category": "mine-assets",
+ "metrics": {
+  "n_kept": 4,
+  "n_total": 8,
+  "alignment_mean": 0.0717,
+  "directional": true,
+  "spec": "/tmp/pytest-of-renyxin/pytest-154/test_mine_assets_end_to_end0/out2/state-action-table-q50.md"
+ },
+ "source": "mine-assets-2026-10-05.jsonl:L2"
+}

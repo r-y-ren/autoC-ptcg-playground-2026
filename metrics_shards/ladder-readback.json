@@ -1,0 +1,8 @@
+{
+ "category": "ladder-readback",
+ "metrics": {
+  "ladder_mu": 600.0,
+  "ladder_mu_date": "2026-10-05"
+ },
+ "source": "https://www.kaggle.com/competitions/the-pokemon-company-ptcg-ai-battle-challenge-playground/submissions"
+}

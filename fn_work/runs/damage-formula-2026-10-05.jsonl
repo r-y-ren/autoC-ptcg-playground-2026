@@ -1,0 +1,18 @@
+[
+ {
+  "case": "W 弱点=1 (Hippopotas)",
+  "deltas": []
+ },
+ {
+  "case": "R 抗性=1 (Beldum)",
+  "deltas": []
+ },
+ {
+  "case": "C 对照 (Pinsir w=2)",
+  "deltas": []
+ },
+ {
+  "case": "W2",
+  "deltas": []
+ }
+]

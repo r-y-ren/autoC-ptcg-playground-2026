@@ -1,0 +1,351 @@
+{
+ "mode": "v5",
+ "fold": "rules+fna029_fix",
+ "ts": "2026-10-06 15:16:09",
+ "protocol": {
+  "seed0": 31000,
+  "anchor_seeds": "seed0+1000+i",
+  "n": 30,
+  "bo": 3
+ },
+ "v5_line": {
+  "opp": "v5",
+  "n": 30,
+  "W": 20,
+  "L": 10,
+  "D": 0,
+  "wr": 0.667,
+  "games": [
+   {
+    "i": 0,
+    "seed": 32000,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false
+   },
+   {
+    "i": 1,
+    "seed": 32001,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 2,
+    "seed": 32002,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false
+   },
+   {
+    "i": 3,
+    "seed": 32003,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false
+   },
+   {
+    "i": 4,
+    "seed": 32004,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 5,
+    "seed": 32005,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 6,
+    "seed": 32006,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 7,
+    "seed": 32007,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 8,
+    "seed": 32008,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false
+   },
+   {
+    "i": 9,
+    "seed": 32009,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 10,
+    "seed": 32010,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false
+   },
+   {
+    "i": 11,
+    "seed": 32011,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 12,
+    "seed": 32012,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false
+   },
+   {
+    "i": 13,
+    "seed": 32013,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 14,
+    "seed": 32014,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 15,
+    "seed": 32015,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 16,
+    "seed": 32016,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 17,
+    "seed": 32017,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false
+   },
+   {
+    "i": 18,
+    "seed": 32018,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false
+   },
+   {
+    "i": 19,
+    "seed": 32019,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false
+   },
+   {
+    "i": 20,
+    "seed": 32020,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 21,
+    "seed": 32021,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 22,
+    "seed": 32022,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false
+   },
+   {
+    "i": 23,
+    "seed": 32023,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 24,
+    "seed": 32024,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false
+   },
+   {
+    "i": 25,
+    "seed": 32025,
+    "swap": true,
+    "res": "L",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false
+   },
+   {
+    "i": 26,
+    "seed": 32026,
+    "swap": false,
+    "res": "L",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 27,
+    "seed": 32027,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   },
+   {
+    "i": 28,
+    "seed": 32028,
+    "swap": false,
+    "res": "W",
+    "rewards": [
+     1,
+     -1
+    ],
+    "failed": false
+   },
+   {
+    "i": 29,
+    "seed": 32029,
+    "swap": true,
+    "res": "W",
+    "rewards": [
+     -1,
+     1
+    ],
+    "failed": false
+   }
+  ]
+ }
+}
